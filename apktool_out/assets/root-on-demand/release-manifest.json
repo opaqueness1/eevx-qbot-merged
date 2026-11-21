@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "releaseId": "frida-17.16.4-agent-3.4.427-cumulative-stock-431c444d9f992a5c",
+  "backend": "root_on_demand",
+  "supportedScenarios": [
+    "stamp_rally",
+    "sniping",
+    "clefairy_farming",
+    "farming",
+    "nearest_raid",
+    "daily_free_raid_pass",
+    "max_raid",
+    "max_particles",
+    "national_trust_route",
+    "grunts",
+    "night_out_toxtricity",
+    "aeon_mall_halloween",
+    "festival_of_lights",
+    "account_check"
+  ],
+  "runtimeModes": [
+    "scenario",
+    "enhanced_play"
+  ],
+  "injector": {
+    "asset": "root-on-demand/oemsignal-inject",
+    "version": "17.16.4",
+    "sha256": "431c444d9f992a5c684801de7a8ffacdf6d2447b5209f5e8de59566ed600c654",
+    "size": 53279984,
+    "download": {
+      "path": "runtime/injectors/431c444d9f992a5c684801de7a8ffacdf6d2447b5209f5e8de59566ed600c654.gz",
+      "encoding": "gzip",
+      "sha256": "2828f1f55b70725645c9f434e8acc7d552832f545ce80b9691be3442ee858d0b",
+      "size": 23391010
+    },
+    "diagnosticsVersion": 3
+  },
+  "agent": {
+    "asset": "root-on-demand/agent.js",
+    "version": "3.4.427-cumulative",
+    "sha256": "1c92b0c301a5d75b8e032e3e48bde0d32fd7c5e127353f2de1ceab7fcae85eb2",
+    "size": 3418087,
+    "download": {
+      "path": "runtime/residents/1c92b0c301a5d75b8e032e3e48bde0d32fd7c5e127353f2de1ceab7fcae85eb2.gz",
+      "encoding": "gzip",
+      "sha256": "1abbeb3d046f8ad178e27902bdfa699d88ee9f3e7d326f4c6f9945e56d7c8e96",
+      "size": 930695
+    },
+    "residentSha256": "14404e58076c9fc7feb6fd97404cc345c8d333fffcd409b22f42cd0c364c3fad",
+    "residentSize": 1786708,
+    "residentSourceSha256": "b9c6a944cf48a2c3b26e046eb87f63d077e95f8cbda2f8890147084488fc0c47",
+    "residentSourceSize": 1786666,
+    "residentSourceLineCount": 211,
+    "buildProfile": "frida-compile-compress-no-source-maps-v3",
+    "scenarioCatalogDigest": "sha256:c41ca9144e78032bea1e2f3fb1f4a2c9bab4c6480bcb06fcbb17518497974627",
+    "enhancedResident": {
+      "sha256": "b82616df2db9e0c8feaa9f486aaa0a6bd12eba222180bc08963c8f6cee43c364",
+      "size": 1527642,
+      "sourceSha256": "8962afa0851f9eb06c861b2634be900fa0ef76892e9f84c78d9d6a9b1a4cb138",
+      "sourceSize": 1527601,
+      "sourceLineCount": 155
+    }
+  },
+  "agentGadget": {
+    "asset": "root-on-demand/agent-gadget.js",
+    "version": "3.4.427-cumulative",
+    "sha256": "647435115520a1a29997449fc8230f3da21657a4c3165fcb25f149edf6892d04",
+    "size": 3418919,
+    "download": {
+      "path": "runtime/residents/647435115520a1a29997449fc8230f3da21657a4c3165fcb25f149edf6892d04.gz",
+      "encoding": "gzip",
+      "sha256": "ff41de7c761f341e6f01980f8878cbe77c9ae73927a87d13884461f5e3371e4a",
+      "size": 930922
+    }
+  },
+  "transport": {
+    "asset": "root-on-demand/pgx-transport.sh",
+    "sha256": "300cd3c55848c3241d9770a42bba7c62a696106e780442e80ab0c9c3fb2acffe",
+    "size": 21227,
+    "contract": "scenario-catalog-v1"
+  },
+  "ptraceFree": {
+    "gadget": {
+      "asset": "root-on-demand/gadget.so",
+      "version": "17.16.4",
+      "sha256": "f1013ea60ff28ac53a39eaff1618f11d3353048c535cb07714dcfcbca1bfd61e",
+      "size": 25213256,
+      "download": {
+        "path": "runtime/injectors/f1013ea60ff28ac53a39eaff1618f11d3353048c535cb07714dcfcbca1bfd61e.gz",
+        "encoding": "gzip",
+        "sha256": "aa00c991bd3f8f811ef335d87170fb1d65f8d12d6642e9e31a49bea2d25f9a1f",
+        "size": 10789398
+      },
+      "embeddedScript": "agent-gadget.js",
+      "strictWxScope": "agent"
+    },
+    "loader": {
+      "asset": "root-on-demand/pgx-ptrace-free-loader",
+      "sha256": "2fc14029714c686bd3b50b6b0fc41474311a77e55cd068cff29ae02435d6ab6f",
+      "size": 29368,
+      "download": {
+        "path": "runtime/injectors/2fc14029714c686bd3b50b6b0fc41474311a77e55cd068cff29ae02435d6ab6f.gz",
+        "encoding": "gzip",
+        "sha256": "01eb73f1e628f62f101a1ba39923b40607aa3a8acd7f824a127526b1b8c0e9ee",
+        "size": 13915
+      }
+    },
+    "agentGadget": {
+      "sha256": "647435115520a1a29997449fc8230f3da21657a4c3165fcb25f149edf6892d04",
+      "size": 3418919
+    }
+  }
+}

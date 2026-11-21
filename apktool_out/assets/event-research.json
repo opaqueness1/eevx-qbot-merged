@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "events": [
+    {
+      "id": 1,
+      "name": "Pikachu Marathon",
+      "gameTitle": "Fall Marathon Timed Research",
+      "gameTitleKey": "FALL_MARATHON_TR_title",
+      "questIdPrefixes": [
+        "FALL_MARATHON_TR_OCT26_"
+      ],
+      "startsAtMs": 1791835200000,
+      "endsAtMs": 1792483200000,
+      "localStart": "2026-10-13T10:00",
+      "localEnd": "2026-10-19T20:00",
+      "summary": "Walk 5, 10, 21 and 42 km for a Pikachu encounter.",
+      "badge": {
+        "scenarioId": "farming",
+        "label": "Pikachu Marathon"
+      }
+    },
+    {
+      "id": 2,
+      "name": "National Trust",
+      "gameTitle": "",
+      "gameTitleKey": "",
+      "questIdPrefixes": [
+        "TR_NT_"
+      ],
+      "startsAtMs": 1792058400000,
+      "endsAtMs": 1798804800000,
+      "localStart": "2026-10-16T00:00",
+      "localEnd": "2027-01-01T00:00",
+      "summary": "",
+      "badge": null
+    },
+    {
+      "id": 3,
+      "name": "AEON Mall Halloween",
+      "gameTitle": "AEON Mall Halloween Event 2026 Timed Research",
+      "gameTitleKey": "jp_aeon_mall_collab_2026_tr_1_name_1",
+      "questIdPrefixes": [
+        "JP_AEON_PARTNERSHIP_2026_"
+      ],
+      "startsAtMs": 1792317600000,
+      "endsAtMs": 1794816000000,
+      "localStart": "2026-10-19T00:00",
+      "localEnd": "2026-11-15T20:00",
+      "summary": "Spin, evolve, use berries, walk, send gifts, throw curveballs, win a raid and complete field research for Witch Hat Pikachu.",
+      "badge": null
+    },
+    {
+      "id": 4,
+      "name": "Pokémon Night Out",
+      "gameTitle": "Pokémon Night Out Timed Research: Low Key Form",
+      "gameTitleKey": "night_out_2026_tr_low_key",
+      "questIdPrefixes": [
+        "TR_NIGHT_OUT_2026_"
+      ],
+      "startsAtMs": 1792749600000,
+      "endsAtMs": 1796040000000,
+      "localStart": "2026-10-24T00:00",
+      "localEnd": "2026-11-30T00:00",
+      "summary": "After the Low Key or Amped choice: win a raid, evolve, spin 20 stops, use 10 berries, power up 5 times and make 10 Great Throws for Toxtricity. Page 1 of the stream research (10 spins, 10 catches, 5 berries) gives Umbreon. Every venue's research (Los Angeles, then London at The O2 on 2026-11-10) shares the TR_NIGHT_OUT_2026_ prefix.",
+      "badge": null
+    },
+    {
+      "id": 5,
+      "name": "Halloween Pikachu",
+      "gameTitle": "Halloween Timed Research",
+      "gameTitleKey": "quest_title_hallow_tr_22",
+      "questIdPrefixes": [
+        "HALLOWEEN_2026_TR_"
+      ],
+      "startsAtMs": 1793044800000,
+      "endsAtMs": 1793570400000,
+      "localStart": "2026-10-27T10:00",
+      "localEnd": "2026-11-01T10:00",
+      "summary": "Six tasks that are already done when granted, a Rare Candy each, then a Halloween Pikachu.",
+      "badge": {
+        "scenarioId": "farming",
+        "label": "Halloween Pikachu"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Festival of Lights",
+      "gameTitle": "Festival of Lights 2026 Timed Research",
+      "gameTitleKey": "in_fol_2026_tr_desc_title_00",
+      "questIdPrefixes": [
+        "TR_IN_FOL_2026_"
+      ],
+      "startsAtMs": 1793440800000,
+      "endsAtMs": 1794916800000,
+      "localStart": "2026-11-01T00:00",
+      "localEnd": "2026-11-17T00:00",
+      "summary": "India only. Page 1: spin a stop, then choose Pikachu wearing a kurta or a saree. Page 2: spin 5 different stops, 3 berries, catch 5 species, battle in a raid, send 5 gifts with a sticker. Page 3: catch on 3 different days, catch 15 species, evolve 5, battle in 3 raids, 10 Great Throws, for the chosen Pikachu and the Sparkler Pose.",
+      "badge": null
+    }
+  ]
+}

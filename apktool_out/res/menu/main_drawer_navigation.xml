@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/drawerWorkspaceGroup" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_leaf" android:id="@id/navigationDashboard" android:title="Scenarios" />
+        <item android:icon="@drawable/ic_tab_accounts" android:id="@id/navigationAccounts" android:title="Accounts" />
+        <item android:icon="@drawable/ic_account_shop" android:id="@id/navigationAccountShop" android:title="Account Shop" />
+        <item android:icon="@drawable/ui_design_layers" android:id="@id/navigationStorage" android:title="Storage Lite" />
+        <item android:icon="@drawable/ui_design_recycle" android:id="@id/navigationAutoRecycle" android:title="Item cleanup" />
+        <item android:icon="@drawable/ic_poke_ball" android:id="@id/navigationPokemonCleanup" android:title="Pokémon cleanup" />
+        <item android:icon="@drawable/ic_gift" android:id="@id/navigationGifts" android:title="Gifts" />
+        <item android:icon="@drawable/ui_design_settings" android:id="@id/navigationSettings" android:title="Settings" />
+        <item android:icon="@drawable/ui_design_webhook" android:id="@id/navigationWebhooks" android:title="Webhooks" />
+    </group>
+    <group android:id="@id/drawerAccountGroup" android:checkableBehavior="single">
+        <item android:icon="@drawable/ui_design_user" android:id="@id/navigationProfile" android:title="Profile" />
+    </group>
+</menu>

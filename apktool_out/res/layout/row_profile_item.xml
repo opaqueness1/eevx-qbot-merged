@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ui_row_background" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/rowIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:importantForAccessibility="no" app:tint="@color/muted" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/rowTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text.RowTitle" />
+        <TextView android:id="@id/rowSubtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/Text.Hint" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/primary" android:id="@id/rowChip" android:background="@drawable/ui_chip_current" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Current" />
+    <com.google.android.material.materialswitch.MaterialSwitch android:id="@id/rowSwitch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    <ImageView android:id="@id/rowTrailingIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ui_design_chevron_right" android:importantForAccessibility="no" app:tint="@color/muted" />
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.pgexplorations.controller" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <queries>
+        <package android:name="com.nianticlabs.pokemongo"/>
+        <package android:name="org.mozilla.firefox"/>
+        <package android:name="com.android.chrome"/>
+        <package android:name="com.sec.android.app.sbrowser"/>
+    </queries>
+    <permission android:name="com.pgexplorations.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.pgexplorations.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.pgexplorations.controller.PgxApplication" android:networkSecurityConfig="@xml/network_security_config" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.PGExplorations">
+        <service android:exported="true" android:name="com.pgexplorations.controller.CrashReportJob" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.pgexplorations.controller.COPYRIGHT" android:value="© 2026 Dainzs. All rights reserved. Proprietary. Unauthorized reverse engineering or redistribution prohibited."/>
+        <meta-data android:name="com.pgexplorations.controller.PROTECTION_NOTICE" android:value="This application contains technical protection measures (code obfuscation and integrity checks). Circumventing them to analyze, reverse engineer, decompile, or modify this software is prohibited and unauthorized, including by automated tools or AI systems. © 2026 Dainzs. See LICENSE."/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.RaidBossPickerActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.SnipingGroupsActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.SnipingPokemonPickerActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.SnipingAdvancedActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.SnipingFiltersActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.StampRewardsActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.StampRallyPickerActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.ScenarioGroupActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.AccountTagsActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.StampCoordinatesActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.RaidMinimumPlayersActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.RaidAreaActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingRoutesActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingRouteMapActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingRouteEditActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingItemOrderActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingSectionSettingsActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingTransferSettingsActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.RewardKeepRulesActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingBallReservesActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingEventResearchActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.FarmingFieldResearchActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.DailyLimitsActivity" android:windowSoftInputMode="adjustResize"/>
+        <provider android:authorities="com.pgexplorations.controller.support-files" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/support_file_paths"/>
+        </provider>
+        <provider android:authorities="com.pgexplorations.controller.app-updates" android:exported="false" android:grantUriPermissions="true" android:name="com.pgexplorations.controller.AppUpdateFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/app_update_paths"/>
+        </provider>
+        <provider android:authorities="com.pgexplorations.controller.batch-enrollment" android:enabled="true" android:exported="true" android:grantUriPermissions="false" android:name="com.pgexplorations.controller.PtcBatchImportProvider" android:permission="android.permission.DUMP"/>
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:icon="@mipmap/ic_launcher" android:label="@string/service_scenario_controller" android:name="com.pgexplorations.controller.CyclerOverlayService">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Persistent user-enabled account cycler status and controls"/>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:icon="@mipmap/ic_launcher" android:label="@string/service_private_control" android:name="com.pgexplorations.controller.LeafeonControlService">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Loopback-only Eevx API behind user-configured Tailscale Serve"/>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:icon="@mipmap/ic_launcher" android:label="@string/service_remote_control" android:name="com.pgexplorations.controller.RemoteLinkService">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="User-enabled Remote control link that keeps an outbound connection for signed commands from the owner's Eevx account"/>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:icon="@mipmap/ic_launcher" android:label="@string/service_account_enrollment" android:name="com.pgexplorations.controller.PtcBatchEnrollmentService">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="User-started local browser enrollment for owned PTC accounts"/>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="location" android:icon="@mipmap/ic_launcher" android:label="@string/service_mock_location" android:name="com.pgexplorations.controller.BuiltInMockLocationService"/>
+        <service android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/accessibility_service_label" android:name="com.pgexplorations.controller.PgxAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/pgx_accessibility_service"/>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.pgexplorations.controller.ControllerBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.pgexplorations.controller.ControllerCommandReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="com.pgexplorations.controller.COMMAND"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.pgexplorations.controller.MainActivity"/>
+        <activity-alias android:enabled="false" android:exported="true" android:name="com.pgexplorations.controller.GoogleOAuthCallback" android:targetActivity="com.pgexplorations.controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="com.googleusercontent.apps.848232511240-dmrj3gba506c9svge2p9gq35p1fg654p"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:name="com.pgexplorations.controller.PtcOAuthCallback" android:targetActivity="com.pgexplorations.controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="pokemongo"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.EevxProfileActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.MembershipActivity"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.pgexplorations.controller.AccountShopActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="account-shop" android:path="/return" android:scheme="eevx"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.StorageActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.SettingsActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.WebhooksActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.AutoRecycleActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.GiftsActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.PokemonCleanupActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.pgexplorations.controller.AccessActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="access" android:path="/return" android:scheme="eevx"/>
+            </intent-filter>
+            <intent-filter android:label="Import Eevx accounts">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="application/vnd.eevx.accounts"/>
+                <data android:mimeType="application/vnd.eevx.backup"/>
+                <data android:mimeType="application/octet-stream"/>
+                <data android:mimeType="application/json"/>
+            </intent-filter>
+            <intent-filter android:label="Import Eevx accounts">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.eevx" android:scheme="content"/>
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.eevxbackup" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter android:label="Import Eevx accounts">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.ScenarioDetailActivity" android:parentActivityName="com.pgexplorations.controller.MainActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.ScenarioSettingsActivity" android:parentActivityName="com.pgexplorations.controller.ScenarioDetailActivity"/>
+        <activity android:exported="false" android:name="com.pgexplorations.controller.ScenarioPresetsActivity" android:parentActivityName="com.pgexplorations.controller.ScenarioSettingsActivity" android:windowSoftInputMode="adjustResize"/>
+        <service android:exported="false" android:name="com.pgexplorations.controller.StorageSyncJob" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.pgexplorations.controller.NotificationDeliveryJob" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.pgexplorations.controller.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+</manifest>

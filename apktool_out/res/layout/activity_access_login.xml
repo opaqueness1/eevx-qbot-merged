@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/canvas" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loginForm" android:paddingTop="32.0dip" android:paddingBottom="70.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="28.0dip">
+        <ImageView android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@drawable/brand_eevx_mark" android:importantForAccessibility="no" />
+        <TextView android:textSize="40.0sp" android:textColor="@color/ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="40.0dip" android:text="Eevx" android:accessibilityHeading="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/loginChoices" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:id="@id/loginPatreon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:text="Sign in with Patreon" app:cornerRadius="26.0dip" style="@style/Widget.PGX.PrimaryButton" />
+            <com.google.android.material.button.MaterialButton android:id="@id/loginEmailChoice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:minHeight="52.0dip" android:text="Sign in with email" app:cornerRadius="26.0dip" style="@style/Widget.PGX.SecondaryButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/loginEmailForm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/loginEmailLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Email" style="@style/Widget.PGX.OutlinedField">
+                <com.google.android.material.textfield.TextInputEditText android:textColor="@color/ink" android:id="@id/loginEmail" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:autofillHints="emailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/loginPasswordLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:hint="Password" app:endIconMode="password_toggle" style="@style/Widget.PGX.OutlinedField">
+                <com.google.android.material.textfield.TextInputEditText android:textColor="@color/ink" android:id="@id/loginPassword" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionDone" android:autofillHints="password" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.button.MaterialButton android:id="@id/loginButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="Sign in" style="@style/Widget.PGX.PrimaryButton" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/primary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/loginForgot" android:background="?selectableItemBackgroundBorderless" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:minHeight="48.0dip" android:text="Forgot password?" />
+            <com.google.android.material.button.MaterialButton android:id="@id/loginBack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="Back" style="@style/Widget.PGX.SecondaryButton" />
+        </LinearLayout>
+        <TextView android:id="@id/loginMessage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:accessibilityLiveRegion="polite" style="@style/Text.Hint" />
+    </LinearLayout>
+</ScrollView>

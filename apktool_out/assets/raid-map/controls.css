@@ -1,0 +1,18 @@
+/* Shared scenario and teleport controls: preserve contrast in every input state. */
+.leaflet-bar a,
+.leaflet-bar a:hover,
+.leaflet-bar a:focus,
+.leaflet-bar a:active {
+  background-color: #11231d;
+  color: #edf6ef;
+  border-color: #365044;
+  -webkit-tap-highlight-color: transparent;
+}
+.leaflet-bar a:hover,
+.leaflet-bar a:focus,
+.leaflet-bar a:active { background-color: #234a39; color: #99dcb7; }
+.leaflet-bar a:focus-visible { outline: 2px solid #80e6ad; outline-offset: -3px; }
+.leaflet-bar a.leaflet-disabled,
+.leaflet-bar a.leaflet-disabled:hover,
+.leaflet-bar a.leaflet-disabled:focus,
+.leaflet-bar a.leaflet-disabled:active { background-color: #11231d; color: #657b6f; }

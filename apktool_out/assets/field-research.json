@@ -1,0 +1,2055 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-10-31T12:10:47.506Z",
+  "tasks": [
+    {
+      "template": "halloween_26_nice_throws_p1",
+      "questType": 16,
+      "label": "Make 6 Nice Throws",
+      "rewards": [
+        {
+          "id": 306,
+          "key": "p710",
+          "label": "Pumpkaboo"
+        },
+        {
+          "id": 307,
+          "key": "p355",
+          "label": "Duskull"
+        },
+        {
+          "id": 308,
+          "key": "p200",
+          "label": "Misdreavus"
+        }
+      ]
+    },
+    {
+      "template": "halloween_26_catch_ghost_p1",
+      "questType": 4,
+      "label": "Catch 13 Ghost-type Pokémon",
+      "rewards": [
+        {
+          "id": 303,
+          "key": "p41",
+          "label": "Zubat"
+        },
+        {
+          "id": 304,
+          "key": "p714",
+          "label": "Noibat"
+        },
+        {
+          "id": 305,
+          "key": "p393",
+          "label": "Piplup"
+        }
+      ]
+    },
+    {
+      "template": "halloween_26_raid3",
+      "questType": 8,
+      "label": "Win 3 raids",
+      "rewards": [
+        {
+          "id": 309,
+          "key": "p25",
+          "label": "Pikachu"
+        }
+      ]
+    },
+    {
+      "template": "halloween_26_raid",
+      "questType": 8,
+      "label": "Win a raid",
+      "rewards": [
+        {
+          "id": 310,
+          "key": "p854",
+          "label": "Sinistea"
+        },
+        {
+          "id": 311,
+          "key": "p41",
+          "label": "Zubat"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_05_win_a_raid",
+      "questType": 8,
+      "label": "Win a raid",
+      "rewards": [
+        {
+          "id": 22,
+          "key": "p131",
+          "label": "Lapras"
+        },
+        {
+          "id": 21,
+          "key": "p143",
+          "label": "Snorlax"
+        },
+        {
+          "id": 18,
+          "key": "p662",
+          "label": "Fletchinder"
+        },
+        {
+          "id": 16,
+          "key": "p404",
+          "label": "Luxio"
+        },
+        {
+          "id": 19,
+          "key": "p444",
+          "label": "Gabite"
+        },
+        {
+          "id": 23,
+          "key": "p136",
+          "label": "Flareon"
+        },
+        {
+          "id": 13,
+          "key": "p608",
+          "label": "Lampent"
+        },
+        {
+          "id": 15,
+          "key": "p221",
+          "label": "Piloswine"
+        },
+        {
+          "id": 17,
+          "key": "p135",
+          "label": "Jolteon"
+        },
+        {
+          "id": 14,
+          "key": "p134",
+          "label": "Vaporeon"
+        },
+        {
+          "id": 12,
+          "key": "p375",
+          "label": "Metang"
+        },
+        {
+          "id": 20,
+          "key": "p364",
+          "label": "Sealeo"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_easy",
+      "questType": 4,
+      "label": "Catch 10 Pokémon",
+      "rewards": [
+        {
+          "id": 9,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 10,
+          "key": "i1",
+          "label": "Poké Ball"
+        },
+        {
+          "id": 11,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 8,
+          "key": "t3",
+          "label": "Stardust"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_nice_curve_inarow_easy",
+      "questType": 16,
+      "label": "Make 2 Nice Curveball Throws in a row",
+      "rewards": [
+        {
+          "id": 285,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 284,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 283,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 286,
+          "key": "i1",
+          "label": "Poké Ball"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_weather_easy",
+      "questType": 4,
+      "label": "Catch 5 Pokémon with Weather Boost",
+      "rewards": [
+        {
+          "id": 289,
+          "key": "i1",
+          "label": "Poké Ball"
+        },
+        {
+          "id": 287,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 290,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 288,
+          "key": "i701",
+          "label": "Razz Berry"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_03_catch_7_different_species_of_pokemon",
+      "questType": 4,
+      "label": "Catch 7 different species of Pokémon",
+      "rewards": [
+        {
+          "id": 149,
+          "key": "p183",
+          "label": "Marill"
+        },
+        {
+          "id": 151,
+          "key": "p434",
+          "label": "Stunky"
+        },
+        {
+          "id": 144,
+          "key": "p742",
+          "label": "Cutiefly"
+        },
+        {
+          "id": 143,
+          "key": "p692",
+          "label": "Clauncher"
+        },
+        {
+          "id": 154,
+          "key": "p928",
+          "label": "Smoliv"
+        },
+        {
+          "id": 146,
+          "key": "p554",
+          "label": "Darumaka"
+        },
+        {
+          "id": 148,
+          "key": "p119",
+          "label": "Seaking"
+        },
+        {
+          "id": 152,
+          "key": "p271",
+          "label": "Lombre"
+        },
+        {
+          "id": 153,
+          "key": "p702",
+          "label": "Dedenne"
+        },
+        {
+          "id": 145,
+          "key": "p216",
+          "label": "Teddiursa"
+        },
+        {
+          "id": 150,
+          "key": "p510",
+          "label": "Liepard"
+        },
+        {
+          "id": 147,
+          "key": "p54",
+          "label": "Psyduck"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_nice_easy",
+      "questType": 16,
+      "label": "Make 5 Nice Throws",
+      "rewards": [
+        {
+          "id": 190,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 193,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 192,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 191,
+          "key": "i1",
+          "label": "Poké Ball"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_04_hatch_an_egg",
+      "questType": 6,
+      "label": "Hatch an Egg",
+      "rewards": [
+        {
+          "id": 104,
+          "key": "p531",
+          "label": "Audino"
+        },
+        {
+          "id": 102,
+          "key": "p415",
+          "label": "Combee"
+        },
+        {
+          "id": 95,
+          "key": "p759",
+          "label": "Stufful"
+        },
+        {
+          "id": 96,
+          "key": "p164",
+          "label": "Noctowl"
+        },
+        {
+          "id": 101,
+          "key": "p347",
+          "label": "Anorith"
+        },
+        {
+          "id": 97,
+          "key": "p767",
+          "label": "Wimpod"
+        },
+        {
+          "id": 99,
+          "key": "p926",
+          "label": "Fidough"
+        },
+        {
+          "id": 103,
+          "key": "p613",
+          "label": "Cubchoo"
+        },
+        {
+          "id": 98,
+          "key": "p345",
+          "label": "Lileep"
+        },
+        {
+          "id": 100,
+          "key": "p105",
+          "label": "Marowak"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_great_easy",
+      "questType": 16,
+      "label": "Make 3 Great Throws",
+      "rewards": [
+        {
+          "id": 196,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 194,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 195,
+          "key": "i1",
+          "label": "Poké Ball"
+        },
+        {
+          "id": 197,
+          "key": "i701",
+          "label": "Razz Berry"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_20_catch_10_dark_type_pokemon",
+      "questType": 4,
+      "label": "Catch 10 Dark-type Pokémon",
+      "rewards": [
+        {
+          "id": 174,
+          "key": "p827",
+          "label": "Nickit"
+        },
+        {
+          "id": 170,
+          "key": "p261",
+          "label": "Poochyena"
+        },
+        {
+          "id": 171,
+          "key": "p686",
+          "label": "Inkay"
+        },
+        {
+          "id": 172,
+          "key": "p198",
+          "label": "Murkrow"
+        },
+        {
+          "id": 173,
+          "key": "p215",
+          "label": "Sneasel"
+        },
+        {
+          "id": 175,
+          "key": "p509",
+          "label": "Purrloin"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_01_spin_5_pokestops",
+      "questType": 5,
+      "label": "Spin 5 PokéStops",
+      "rewards": [
+        {
+          "id": 55,
+          "key": "p27",
+          "label": "Sandshrew"
+        },
+        {
+          "id": 54,
+          "key": "p263",
+          "label": "Zigzagoon"
+        },
+        {
+          "id": 64,
+          "key": "p824",
+          "label": "Blipbug"
+        },
+        {
+          "id": 63,
+          "key": "p819",
+          "label": "Skwovet"
+        },
+        {
+          "id": 65,
+          "key": "p361",
+          "label": "Snorunt"
+        },
+        {
+          "id": 67,
+          "key": "p206",
+          "label": "Dunsparce"
+        },
+        {
+          "id": 61,
+          "key": "p917",
+          "label": "Tarountula"
+        },
+        {
+          "id": 59,
+          "key": "p932",
+          "label": "Nacli"
+        },
+        {
+          "id": 56,
+          "key": "p215",
+          "label": "Sneasel"
+        },
+        {
+          "id": 58,
+          "key": "p580",
+          "label": "Ducklett"
+        },
+        {
+          "id": 57,
+          "key": "p846",
+          "label": "Arrokuda"
+        },
+        {
+          "id": 68,
+          "key": "p751",
+          "label": "Dewpider"
+        },
+        {
+          "id": 66,
+          "key": "p399",
+          "label": "Bidoof"
+        },
+        {
+          "id": 62,
+          "key": "p568",
+          "label": "Trubbish"
+        },
+        {
+          "id": 60,
+          "key": "p449",
+          "label": "Hippopotas"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_18_catch_10_grass_type_pokemon",
+      "questType": 4,
+      "label": "Catch 10 Grass-type Pokémon",
+      "rewards": [
+        {
+          "id": 71,
+          "key": "p928",
+          "label": "Smoliv"
+        },
+        {
+          "id": 72,
+          "key": "p285",
+          "label": "Shroomish"
+        },
+        {
+          "id": 73,
+          "key": "p273",
+          "label": "Seedot"
+        },
+        {
+          "id": 70,
+          "key": "p191",
+          "label": "Sunkern"
+        },
+        {
+          "id": 74,
+          "key": "p672",
+          "label": "Skiddo"
+        },
+        {
+          "id": 69,
+          "key": "p548",
+          "label": "Petilil"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_02_explore_2_km",
+      "questType": 42,
+      "label": "Explore 2 km",
+      "rewards": [
+        {
+          "id": 136,
+          "key": "p79",
+          "label": "Slowpoke"
+        },
+        {
+          "id": 135,
+          "key": "p77",
+          "label": "Ponyta"
+        },
+        {
+          "id": 142,
+          "key": "p228",
+          "label": "Houndour"
+        },
+        {
+          "id": 141,
+          "key": "p58",
+          "label": "Growlithe"
+        },
+        {
+          "id": 139,
+          "key": "p131",
+          "label": "Lapras"
+        },
+        {
+          "id": 138,
+          "key": "p309",
+          "label": "Electrike"
+        },
+        {
+          "id": 137,
+          "key": "p507",
+          "label": "Herdier"
+        },
+        {
+          "id": 140,
+          "key": "p320",
+          "label": "Wailmer"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_19_catch_10_ghost_type_pokemon",
+      "questType": 4,
+      "label": "Catch 10 Ghost-type Pokémon",
+      "rewards": [
+        {
+          "id": 185,
+          "key": "p92",
+          "label": "Gastly"
+        },
+        {
+          "id": 182,
+          "key": "p353",
+          "label": "Shuppet"
+        },
+        {
+          "id": 183,
+          "key": "p355",
+          "label": "Duskull"
+        },
+        {
+          "id": 181,
+          "key": "p425",
+          "label": "Drifloon"
+        },
+        {
+          "id": 184,
+          "key": "p562",
+          "label": "Yamask"
+        },
+        {
+          "id": 186,
+          "key": "p622",
+          "label": "Golett"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_catch_grass_june23",
+      "questType": 4,
+      "label": "Catch 10 Grass-type Pokémon",
+      "rewards": [
+        {
+          "id": 210,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 212,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 211,
+          "key": "m3",
+          "label": "Venusaur Mega Energy"
+        },
+        {
+          "id": 207,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 208,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 209,
+          "key": "m254",
+          "label": "Sceptile Mega Energy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_buddy_candy_easy_june23",
+      "questType": 17,
+      "label": "Earn 2 Candies walking with your buddy",
+      "rewards": [
+        {
+          "id": 273,
+          "key": "p431",
+          "label": "Glameow"
+        },
+        {
+          "id": 272,
+          "key": "p39",
+          "label": "Jigglypuff"
+        },
+        {
+          "id": 271,
+          "key": "p427",
+          "label": "Buneary"
+        },
+        {
+          "id": 268,
+          "key": "p702",
+          "label": "Dedenne"
+        },
+        {
+          "id": 269,
+          "key": "p659",
+          "label": "Bunnelby"
+        },
+        {
+          "id": 270,
+          "key": "p667",
+          "label": "Litleo"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_powerup_easy_mega_june23",
+      "questType": 14,
+      "label": "Power up Pokémon 5 times",
+      "rewards": [
+        {
+          "id": 223,
+          "key": "m3",
+          "label": "Venusaur Mega Energy"
+        },
+        {
+          "id": 219,
+          "key": "m9",
+          "label": "Blastoise Mega Energy"
+        },
+        {
+          "id": 221,
+          "key": "m306",
+          "label": "Aggron Mega Energy"
+        },
+        {
+          "id": 224,
+          "key": "m15",
+          "label": "Beedrill Mega Energy"
+        },
+        {
+          "id": 222,
+          "key": "m18",
+          "label": "Pidgeot Mega Energy"
+        },
+        {
+          "id": 225,
+          "key": "m6",
+          "label": "Charizard Mega Energy"
+        },
+        {
+          "id": 220,
+          "key": "m310",
+          "label": "Manectric Mega Energy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_berry_moderate",
+      "questType": 13,
+      "label": "Use 5 Berries to help catch Pokémon",
+      "rewards": [
+        {
+          "id": 127,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 126,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 124,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 125,
+          "key": "i705",
+          "label": "Pinap Berry"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_catch_water_june23",
+      "questType": 4,
+      "label": "Catch 10 Water-type Pokémon",
+      "rewards": [
+        {
+          "id": 28,
+          "key": "m260",
+          "label": "Swampert Mega Energy"
+        },
+        {
+          "id": 27,
+          "key": "m9",
+          "label": "Blastoise Mega Energy"
+        },
+        {
+          "id": 30,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 29,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 26,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 25,
+          "key": "i705",
+          "label": "Pinap Berry"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_weather_easy_june23",
+      "questType": 4,
+      "label": "Catch 5 Pokémon with Weather Boost",
+      "rewards": [
+        {
+          "id": 130,
+          "key": "p524",
+          "label": "Roggenrola"
+        },
+        {
+          "id": 128,
+          "key": "p582",
+          "label": "Vanillite"
+        },
+        {
+          "id": 132,
+          "key": "p60",
+          "label": "Poliwag"
+        },
+        {
+          "id": 134,
+          "key": "p459",
+          "label": "Snover"
+        },
+        {
+          "id": 131,
+          "key": "p37",
+          "label": "Vulpix"
+        },
+        {
+          "id": 129,
+          "key": "p449",
+          "label": "Hippopotas"
+        },
+        {
+          "id": 133,
+          "key": "p278",
+          "label": "Wingull"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_10_send_3_gifts_with_a_sticker",
+      "questType": 24,
+      "label": "Send 3 Gifts and add a sticker to each",
+      "rewards": [
+        {
+          "id": 76,
+          "key": "p39",
+          "label": "Jigglypuff"
+        },
+        {
+          "id": 77,
+          "key": "p35",
+          "label": "Clefairy"
+        },
+        {
+          "id": 75,
+          "key": "p133",
+          "label": "Eevee"
+        },
+        {
+          "id": 78,
+          "key": "p176",
+          "label": "Togetic"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_spin_s_item",
+      "questType": 5,
+      "label": "Spin 3 PokéStops or Gyms",
+      "rewards": [
+        {
+          "id": 201,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 199,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 202,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 200,
+          "key": "i701",
+          "label": "Razz Berry"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_curveball_inarow_moderate",
+      "questType": 16,
+      "label": "Make 5 Curveball Throws in a row",
+      "rewards": [
+        {
+          "id": 243,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 240,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 241,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 242,
+          "key": "i705",
+          "label": "Pinap Berry"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_nice_inarow_moderate",
+      "questType": 16,
+      "label": "Make 3 Nice Throws in a row",
+      "rewards": [
+        {
+          "id": 205,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 204,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 206,
+          "key": "i3",
+          "label": "Ultra Ball"
+        },
+        {
+          "id": 203,
+          "key": "i2",
+          "label": "Great Ball"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_weather_moderate",
+      "questType": 4,
+      "label": "Catch 10 Pokémon with Weather Boost",
+      "rewards": [
+        {
+          "id": 217,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 218,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 215,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 216,
+          "key": "i2",
+          "label": "Great Ball"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_moderate_june23",
+      "questType": 4,
+      "label": "Catch 7 Pokémon",
+      "rewards": [
+        {
+          "id": 81,
+          "key": "p767",
+          "label": "Wimpod"
+        },
+        {
+          "id": 80,
+          "key": "p129",
+          "label": "Magikarp"
+        },
+        {
+          "id": 79,
+          "key": "p759",
+          "label": "Stufful"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_wild_snapshot_june23",
+      "questType": 57,
+      "label": "Take a snapshot of a wild Pokémon",
+      "rewards": [
+        {
+          "id": 189,
+          "key": "p328",
+          "label": "Trapinch"
+        },
+        {
+          "id": 188,
+          "key": "p546",
+          "label": "Cottonee"
+        },
+        {
+          "id": 187,
+          "key": "p453",
+          "label": "Croagunk"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_13_land_10_curveball_throws",
+      "questType": 16,
+      "label": "Make 10 Curveball Throws",
+      "rewards": [
+        {
+          "id": 85,
+          "key": "p915",
+          "label": "Lechonk"
+        },
+        {
+          "id": 93,
+          "key": "p333",
+          "label": "Swablu"
+        },
+        {
+          "id": 94,
+          "key": "p397",
+          "label": "Staravia"
+        },
+        {
+          "id": 86,
+          "key": "p74",
+          "label": "Geodude"
+        },
+        {
+          "id": 91,
+          "key": "p125",
+          "label": "Electabuzz"
+        },
+        {
+          "id": 89,
+          "key": "p597",
+          "label": "Ferroseed"
+        },
+        {
+          "id": 88,
+          "key": "p343",
+          "label": "Baltoy"
+        },
+        {
+          "id": 87,
+          "key": "p356",
+          "label": "Dusclops"
+        },
+        {
+          "id": 90,
+          "key": "p296",
+          "label": "Makuhita"
+        },
+        {
+          "id": 92,
+          "key": "p587",
+          "label": "Emolga"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_normal_moderate",
+      "questType": 4,
+      "label": "Catch 10 Normal-type Pokémon",
+      "rewards": [
+        {
+          "id": 40,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 43,
+          "key": "m18",
+          "label": "Pidgeot Mega Energy"
+        },
+        {
+          "id": 41,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 44,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 42,
+          "key": "i705",
+          "label": "Pinap Berry"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_07_defeat_a_team_go_rocket_grunt",
+      "questType": 29,
+      "label": "Defeat a Team GO Rocket Grunt",
+      "rewards": [
+        {
+          "id": 262,
+          "key": "p24",
+          "label": "Arbok"
+        },
+        {
+          "id": 261,
+          "key": "p52",
+          "label": "Meowth"
+        },
+        {
+          "id": 260,
+          "key": "p110",
+          "label": "Weezing"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_catch_fire_june23",
+      "questType": 4,
+      "label": "Catch 10 Fire-type Pokémon",
+      "rewards": [
+        {
+          "id": 165,
+          "key": "m257",
+          "label": "Blaziken Mega Energy"
+        },
+        {
+          "id": 164,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 162,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 166,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 163,
+          "key": "m6",
+          "label": "Charizard Mega Energy"
+        },
+        {
+          "id": 161,
+          "key": "t3",
+          "label": "Stardust"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_08_evolve_a_pokemon",
+      "questType": 15,
+      "label": "Evolve a Pokémon",
+      "rewards": [
+        {
+          "id": 232,
+          "key": "p603",
+          "label": "Eelektrik"
+        },
+        {
+          "id": 226,
+          "key": "p544",
+          "label": "Whirlipede"
+        },
+        {
+          "id": 231,
+          "key": "p660",
+          "label": "Diggersby"
+        },
+        {
+          "id": 229,
+          "key": "p117",
+          "label": "Seadra"
+        },
+        {
+          "id": 230,
+          "key": "p217",
+          "label": "Ursaring"
+        },
+        {
+          "id": 227,
+          "key": "p326",
+          "label": "Grumpig"
+        },
+        {
+          "id": 228,
+          "key": "p219",
+          "label": "Magcargo"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_12_land_10_nice_throws",
+      "questType": 16,
+      "label": "Make 10 Nice Throws",
+      "rewards": [
+        {
+          "id": 31,
+          "key": "p618",
+          "label": "Stunfisk"
+        },
+        {
+          "id": 36,
+          "key": "p191",
+          "label": "Sunkern"
+        },
+        {
+          "id": 32,
+          "key": "p732",
+          "label": "Trumbeak"
+        },
+        {
+          "id": 39,
+          "key": "p129",
+          "label": "Magikarp"
+        },
+        {
+          "id": 38,
+          "key": "p126",
+          "label": "Magmar"
+        },
+        {
+          "id": 37,
+          "key": "p274",
+          "label": "Nuzleaf"
+        },
+        {
+          "id": 33,
+          "key": "p524",
+          "label": "Roggenrola"
+        },
+        {
+          "id": 35,
+          "key": "p747",
+          "label": "Mareanie"
+        },
+        {
+          "id": 34,
+          "key": "p919",
+          "label": "Nymble"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_excellent_moderate",
+      "questType": 16,
+      "label": "Make an Excellent Throw",
+      "rewards": [
+        {
+          "id": 118,
+          "key": "i2",
+          "label": "Great Ball"
+        },
+        {
+          "id": 116,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 117,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 119,
+          "key": "i3",
+          "label": "Ultra Ball"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_06_win_a_max_battle",
+      "questType": 21,
+      "label": "Win a Max Battle",
+      "rewards": [
+        {
+          "id": 295,
+          "key": "t3",
+          "label": "Stardust"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_11_trade_a_pokemon",
+      "questType": 23,
+      "label": "Trade a Pokémon",
+      "rewards": [
+        {
+          "id": 4,
+          "key": "p67",
+          "label": "Machoke"
+        },
+        {
+          "id": 3,
+          "key": "p93",
+          "label": "Haunter"
+        },
+        {
+          "id": 6,
+          "key": "p64",
+          "label": "Kadabra"
+        },
+        {
+          "id": 5,
+          "key": "p61",
+          "label": "Poliwhirl"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_great_inarow_hard",
+      "questType": 16,
+      "label": "Make 3 Great Throws in a row",
+      "rewards": [
+        {
+          "id": 160,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 158,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 159,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 155,
+          "key": "i1301",
+          "label": "Rare Candy"
+        },
+        {
+          "id": 157,
+          "key": "i3",
+          "label": "Ultra Ball"
+        },
+        {
+          "id": 156,
+          "key": "i1",
+          "label": "Poké Ball"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_14_land_5_great_curveball_throws_in_a_row",
+      "questType": 16,
+      "label": "Make 5 Great Curveball Throws in a row",
+      "rewards": [
+        {
+          "id": 294,
+          "key": "p327",
+          "label": "Spinda"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_spin_easy_june23",
+      "questType": 5,
+      "label": "Spin 3 PokéStops or Gyms",
+      "rewards": [
+        {
+          "id": 121,
+          "key": "p280",
+          "label": "Ralts"
+        },
+        {
+          "id": 122,
+          "key": "p223",
+          "label": "Remoraid"
+        },
+        {
+          "id": 123,
+          "key": "p84",
+          "label": "Doduo"
+        },
+        {
+          "id": 120,
+          "key": "p304",
+          "label": "Aron"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_powerup_hard_june23",
+      "questType": 14,
+      "label": "Power up Pokémon 7 times",
+      "rewards": [
+        {
+          "id": 265,
+          "key": "p722",
+          "label": "Rowlet"
+        },
+        {
+          "id": 264,
+          "key": "p728",
+          "label": "Popplio"
+        },
+        {
+          "id": 266,
+          "key": "p725",
+          "label": "Litten"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_powerup_easy_june23",
+      "questType": 14,
+      "label": "Power up Pokémon 3 times",
+      "rewards": [
+        {
+          "id": 237,
+          "key": "p1",
+          "label": "Bulbasaur"
+        },
+        {
+          "id": 238,
+          "key": "p7",
+          "label": "Squirtle"
+        },
+        {
+          "id": 239,
+          "key": "p4",
+          "label": "Charmander"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_powerup_moderate_june23",
+      "questType": 14,
+      "label": "Power up Pokémon 5 times",
+      "rewards": [
+        {
+          "id": 255,
+          "key": "p495",
+          "label": "Snivy"
+        },
+        {
+          "id": 254,
+          "key": "p501",
+          "label": "Oshawott"
+        },
+        {
+          "id": 253,
+          "key": "p498",
+          "label": "Tepig"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_09_power_up_pokemon_15_times",
+      "questType": 14,
+      "label": "Power up Pokémon 15 times",
+      "rewards": [
+        {
+          "id": 302,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_evolve_easy_june23",
+      "questType": 15,
+      "label": "Evolve a Pokémon",
+      "rewards": [
+        {
+          "id": 115,
+          "key": "p133",
+          "label": "Eevee"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_15_make_2_excellent_throws",
+      "questType": 16,
+      "label": "Make 2 Excellent Throws",
+      "rewards": [
+        {
+          "id": 263,
+          "key": "p147",
+          "label": "Dratini"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_great_curve_hard",
+      "questType": 16,
+      "label": "Make 3 Great Curveball Throws",
+      "rewards": [
+        {
+          "id": 109,
+          "key": "i701",
+          "label": "Razz Berry"
+        },
+        {
+          "id": 110,
+          "key": "i705",
+          "label": "Pinap Berry"
+        },
+        {
+          "id": 111,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 113,
+          "key": "i1",
+          "label": "Poké Ball"
+        },
+        {
+          "id": 114,
+          "key": "i1301",
+          "label": "Rare Candy"
+        },
+        {
+          "id": 112,
+          "key": "i3",
+          "label": "Ultra Ball"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_nice_easy_june23",
+      "questType": 16,
+      "label": "Make 5 Nice Throws",
+      "rewards": [
+        {
+          "id": 233,
+          "key": "p50",
+          "label": "Diglett"
+        },
+        {
+          "id": 234,
+          "key": "p185",
+          "label": "Sudowoodo"
+        }
+      ]
+    },
+    {
+      "template": "temporal_fr_004",
+      "questType": 6,
+      "label": "Hatch 2 Eggs",
+      "rewards": [
+        {
+          "id": 244,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_raid_win_tier3_june23",
+      "questType": 8,
+      "label": "Win a three-star raid or higher",
+      "rewards": [
+        {
+          "id": 251,
+          "key": "p564",
+          "label": "Tirtouga"
+        },
+        {
+          "id": 252,
+          "key": "p566",
+          "label": "Archen"
+        }
+      ]
+    },
+    {
+      "template": "sponsored_2019_moderate_gifts",
+      "questType": 24,
+      "label": "Send 3 Gifts to friends",
+      "rewards": [
+        {
+          "id": 235,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 236,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    },
+    {
+      "template": "sponsored_2019_moderate_catch",
+      "questType": 4,
+      "label": "Catch 8 Pokémon",
+      "rewards": [
+        {
+          "id": 48,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 49,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_great_1_june23",
+      "questType": 16,
+      "label": "Make 3 Great Throws",
+      "rewards": [
+        {
+          "id": 258,
+          "key": "p366",
+          "label": "Clamperl"
+        },
+        {
+          "id": 259,
+          "key": "p605",
+          "label": "Elgyem"
+        },
+        {
+          "id": 257,
+          "key": "p688",
+          "label": "Binacle"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_16_earn_10_000_xp",
+      "questType": 60,
+      "label": "Earn 10,000 XP",
+      "rewards": [
+        {
+          "id": 278,
+          "key": "i706",
+          "label": "Golden Razz Berry"
+        }
+      ]
+    },
+    {
+      "template": "temporal_fr_002",
+      "questType": 4,
+      "label": "Catch 50 Pokémon",
+      "rewards": [
+        {
+          "id": 267,
+          "key": "i709",
+          "label": "Poffin"
+        }
+      ]
+    },
+    {
+      "template": "challenge_buddy_candy_moderate_june23",
+      "questType": 17,
+      "label": "Earn 3 Candies walking with your buddy",
+      "rewards": [
+        {
+          "id": 282,
+          "key": "p618",
+          "label": "Stunfisk"
+        }
+      ]
+    },
+    {
+      "template": "temporal_fr_001",
+      "questType": 6,
+      "label": "Hatch 5 Eggs",
+      "rewards": [
+        {
+          "id": 198,
+          "key": "i709",
+          "label": "Poffin"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_spin_moderate_june23",
+      "questType": 5,
+      "label": "Spin 5 PokéStops or Gyms",
+      "rewards": [
+        {
+          "id": 276,
+          "key": "p58",
+          "label": "Growlithe"
+        },
+        {
+          "id": 277,
+          "key": "p79",
+          "label": "Slowpoke"
+        }
+      ]
+    },
+    {
+      "template": "temporal_fr_005",
+      "questType": 4,
+      "label": "Catch 25 Pokémon",
+      "rewards": [
+        {
+          "id": 180,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_great_inarow_june23",
+      "questType": 16,
+      "label": "Make 3 Great Throws in a row",
+      "rewards": [
+        {
+          "id": 297,
+          "key": "p345",
+          "label": "Lileep"
+        },
+        {
+          "id": 298,
+          "key": "p347",
+          "label": "Anorith"
+        }
+      ]
+    },
+    {
+      "template": "temporal_fr_006",
+      "questType": 8,
+      "label": "Win a raid",
+      "rewards": [
+        {
+          "id": 256,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_hatch_easy_june23",
+      "questType": 6,
+      "label": "Hatch an Egg",
+      "rewards": [
+        {
+          "id": 177,
+          "key": "p123",
+          "label": "Scyther"
+        },
+        {
+          "id": 178,
+          "key": "p568",
+          "label": "Trubbish"
+        },
+        {
+          "id": 176,
+          "key": "p185",
+          "label": "Sudowoodo"
+        },
+        {
+          "id": 179,
+          "key": "p290",
+          "label": "Nincada"
+        }
+      ]
+    },
+    {
+      "template": "temporal_fr_003",
+      "questType": 8,
+      "label": "Win 3 raids",
+      "rewards": [
+        {
+          "id": 7,
+          "key": "i709",
+          "label": "Poffin"
+        }
+      ]
+    },
+    {
+      "template": "challenge_raid_hard_june23",
+      "questType": 8,
+      "label": "Win 5 raids",
+      "rewards": [
+        {
+          "id": 293,
+          "key": "p105",
+          "label": "Marowak"
+        },
+        {
+          "id": 291,
+          "key": "p142",
+          "label": "Aerodactyl"
+        },
+        {
+          "id": 292,
+          "key": "p103",
+          "label": "Exeggutor"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_great_2_june23",
+      "questType": 16,
+      "label": "Make 3 Great Throws",
+      "rewards": [
+        {
+          "id": 274,
+          "key": "p138",
+          "label": "Omanyte"
+        },
+        {
+          "id": 275,
+          "key": "p140",
+          "label": "Kabuto"
+        }
+      ]
+    },
+    {
+      "template": "quest_season24_field_17_earn_10_000_stardust",
+      "questType": 44,
+      "label": "Earn 10,000 Stardust",
+      "rewards": [
+        {
+          "id": 299,
+          "key": "i708",
+          "label": "Silver Pinap Berry"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_dragon_veryhard",
+      "questType": 4,
+      "label": "Catch a Dragon-type Pokémon",
+      "rewards": [
+        {
+          "id": 53,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 51,
+          "key": "i706",
+          "label": "Golden Razz Berry"
+        },
+        {
+          "id": 52,
+          "key": "i3",
+          "label": "Ultra Ball"
+        },
+        {
+          "id": 50,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_ditto_veryhard",
+      "questType": 4,
+      "label": "Catch a Ditto",
+      "rewards": [
+        {
+          "id": 108,
+          "key": "i3",
+          "label": "Ultra Ball"
+        },
+        {
+          "id": 105,
+          "key": "i1301",
+          "label": "Rare Candy"
+        },
+        {
+          "id": 106,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 107,
+          "key": "i706",
+          "label": "Golden Razz Berry"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_great_curve_inarow_veryhard",
+      "questType": 16,
+      "label": "Make 3 Great Curveball Throws in a row",
+      "rewards": [
+        {
+          "id": 246,
+          "key": "i706",
+          "label": "Golden Razz Berry"
+        },
+        {
+          "id": 247,
+          "key": "t3",
+          "label": "Stardust"
+        },
+        {
+          "id": 248,
+          "key": "i1301",
+          "label": "Rare Candy"
+        },
+        {
+          "id": 245,
+          "key": "i3",
+          "label": "Ultra Ball"
+        }
+      ]
+    },
+    {
+      "template": "challenge_base_hatch_moderate_june23",
+      "questType": 6,
+      "label": "Hatch 2 Eggs",
+      "rewards": [
+        {
+          "id": 45,
+          "key": "p303",
+          "label": "Mawile"
+        },
+        {
+          "id": 47,
+          "key": "p215",
+          "label": "Sneasel"
+        },
+        {
+          "id": 46,
+          "key": "p349",
+          "label": "Feebas"
+        }
+      ]
+    },
+    {
+      "template": "challenge_catch_dragon_june23",
+      "questType": 4,
+      "label": "Catch a Dragon-type Pokémon",
+      "rewards": [
+        {
+          "id": 281,
+          "key": "p610",
+          "label": "Axew"
+        },
+        {
+          "id": 280,
+          "key": "p147",
+          "label": "Dratini"
+        },
+        {
+          "id": 279,
+          "key": "p371",
+          "label": "Bagon"
+        }
+      ]
+    },
+    {
+      "template": "challenge_land_excellent_inarow_june23",
+      "questType": 16,
+      "label": "Make 3 Excellent Throws in a row",
+      "rewards": [
+        {
+          "id": 169,
+          "key": "p246",
+          "label": "Larvitar"
+        },
+        {
+          "id": 167,
+          "key": "p443",
+          "label": "Gible"
+        },
+        {
+          "id": 168,
+          "key": "p374",
+          "label": "Beldum"
+        }
+      ]
+    },
+    {
+      "template": "quest_jleague2026_catch_pokemon",
+      "questType": 4,
+      "label": "Catch 3 Pokémon",
+      "rewards": [
+        {
+          "id": 1,
+          "key": "i3",
+          "label": "Ultra Ball"
+        },
+        {
+          "id": 2,
+          "key": "c813",
+          "label": "Scorbunny Candy"
+        }
+      ]
+    },
+    {
+      "template": "quest_jleague2026_catch_berry",
+      "questType": 13,
+      "label": "Use 3 Berries to help catch Pokémon",
+      "rewards": [
+        {
+          "id": 24,
+          "key": "t3",
+          "label": "Stardust"
+        }
+      ]
+    },
+    {
+      "template": "quest_jleague2026_win_a_raid",
+      "questType": 8,
+      "label": "Win a raid",
+      "rewards": [
+        {
+          "id": 296,
+          "key": "i1301",
+          "label": "Rare Candy"
+        }
+      ]
+    }
+  ]
+}

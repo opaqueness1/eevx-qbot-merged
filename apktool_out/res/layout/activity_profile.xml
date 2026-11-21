@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/canvas" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/profileStartup" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/view_startup_loading" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/profileFeedback" android:background="@color/surface_high" android:paddingLeft="20.0dip" android:paddingTop="8.0dip" android:paddingRight="20.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/profileProgress" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="12.0dip" android:indeterminateTint="@color/primary" />
+        <TextView android:id="@id/profileStatus" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:accessibilityLiveRegion="polite" style="@style/Text.Body" />
+    </LinearLayout>
+    <ScrollView android:id="@id/profileScroll" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/profileContent" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView android:id="@id/profileAccountCard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.PGX.Card">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/primary" android:gravity="center" android:id="@id/profileAvatar" android:background="@drawable/ui_avatar_circle" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_weight="1.0">
+                            <TextView android:ellipsize="middle" android:id="@id/profileEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/Text.RowTitle" />
+                            <TextView android:id="@id/profileMemberSince" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/Text.Hint" />
+                            <TextView android:id="@id/profilePatreonConnected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Patreon connected" style="@style/Text.Hint" />
+                            <TextView android:id="@id/profileCurrentPlan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/Text.Hint" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/profileManageSubscription" android:background="@drawable/ui_row_background" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip">
+                        <TextView android:textSize="15.0sp" android:textColor="@color/ink" android:id="@id/profileManageSubscriptionLabel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Manage subscription" android:layout_weight="1.0" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ui_design_external_link" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <include android:id="@id/profileLicensePrompt" layout="@layout/view_profile_license_prompt" />
+            <com.google.android.material.button.MaterialButtonToggleGroup android:id="@id/profileTabs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:checkedButton="@id/profileTabDevices" app:selectionRequired="true" app:singleSelection="true">
+                <com.google.android.material.button.MaterialButton android:id="@id/profileTabDevices" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Devices" android:layout_weight="1.0" style="@style/Widget.PGX.SegmentButton" />
+                <com.google.android.material.button.MaterialButton android:id="@id/profileTabLicenses" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Licenses" android:layout_weight="1.0" style="@style/Widget.PGX.SegmentButton" />
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+            <LinearLayout android:orientation="vertical" android:id="@id/profileDevicesTab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/Widget.PGX.Card">
+                    <LinearLayout android:orientation="vertical" android:id="@id/profileDeviceList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.button.MaterialButton android:id="@id/profileLinkPhone" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="Link this phone" style="@style/Widget.PGX.PrimaryButton" />
+                <TextView android:gravity="center" android:id="@id/profileDevicesHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Tap a device to manage its app and Storage Lite access." style="@style/Text.Hint" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/profileLicensesTab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.button.MaterialButtonToggleGroup android:id="@id/profileProductTabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:checkedButton="@id/profileProductApp" app:selectionRequired="true" app:singleSelection="true">
+                    <com.google.android.material.button.MaterialButton android:id="@id/profileProductApp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="App access" android:layout_weight="1.0" style="@style/Widget.PGX.SegmentButton" />
+                    <com.google.android.material.button.MaterialButton android:id="@id/profileProductStorage" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Storage Lite" android:layout_weight="1.0" style="@style/Widget.PGX.SegmentButton" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+                <TextView android:id="@id/profileProductHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Each device can have one app license and one Storage Lite license." style="@style/Text.Hint" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:baselineAligned="false">
+                    <include android:id="@id/profileStatActive" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/view_stat_tile" />
+                    <include android:id="@id/profileStatAssigned" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" layout="@layout/view_stat_tile" />
+                    <include android:id="@id/profileStatAvailable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" layout="@layout/view_stat_tile" />
+                </LinearLayout>
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/Widget.PGX.Card">
+                    <include android:id="@id/profileAvailableRow" layout="@layout/row_profile_item" />
+                </com.google.android.material.card.MaterialCardView>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ink" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Assigned" android:layout_weight="1.0" />
+                    <TextView android:id="@id/profileAssignedCount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Hint" />
+                </LinearLayout>
+                <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/Widget.PGX.Card">
+                    <LinearLayout android:orientation="vertical" android:id="@id/profileAssignedList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+            <com.google.android.material.button.MaterialButton android:id="@id/profileRetry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Retry" style="@style/Widget.PGX.PrimaryButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

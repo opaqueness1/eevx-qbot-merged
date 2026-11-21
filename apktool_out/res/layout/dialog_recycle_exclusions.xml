@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ui_design_users" android:importantForAccessibility="no" app:tint="@color/ink" />
+        <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/auto_recycle_excluded_title" android:layout_weight="1.0" style="@style/Text.DialogTitle" />
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/auto_recycle_excluded_hint" style="@style/Text.Hint" />
+    <ScrollView android:id="@id/recycleExclusionScroll" android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_marginTop="12.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/recycleExclusionList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <com.google.android.material.button.MaterialButton android:id="@id/recycleExclusionCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Widget.PGX.TextButton" />
+        <com.google.android.material.button.MaterialButton android:id="@id/recycleExclusionSave" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:minHeight="48.0dip" android:text="@string/auto_recycle_excluded_save" style="@style/Widget.PGX.PrimaryButton" />
+    </LinearLayout>
+</LinearLayout>

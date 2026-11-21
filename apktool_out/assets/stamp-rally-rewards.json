@@ -1,0 +1,1978 @@
+{
+  "1": {
+    "sections": [
+      {
+        "title": "ポケモンセンターサッポロ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 312,
+        "backgroundAsset": "background_312.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンタートウホク",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 313,
+        "backgroundAsset": "background_313.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンタートウキョーDX",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 314,
+        "backgroundAsset": "background_314.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターメガトウキョー",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 315,
+        "backgroundAsset": "background_315.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターシブヤ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 316,
+        "backgroundAsset": "background_316.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンタースカイツリータウン",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 317,
+        "backgroundAsset": "background_317.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンタートウキョーベイ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 318,
+        "backgroundAsset": "background_318.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターヨコハマ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 319,
+        "backgroundAsset": "background_319.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターナゴヤ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 320,
+        "backgroundAsset": "background_320.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターカナザワ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 321,
+        "backgroundAsset": "background_321.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターキョウト",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 322,
+        "backgroundAsset": "background_322.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターオーサカDX",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 323,
+        "backgroundAsset": "background_323.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターオーサカ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 324,
+        "backgroundAsset": "background_324.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターヒロシマ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 325,
+        "backgroundAsset": "background_325.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターカガワ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 326,
+        "backgroundAsset": "background_326.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターフクオカ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 327,
+        "backgroundAsset": "background_327.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "ポケモンセンターオキナワ",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 328,
+        "backgroundAsset": "background_328.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Pokémon GO Lab.",
+        "collectionId": "STAMP_RALLY_JAPAN_POKRMONCENTER_2026",
+        "backgroundId": 329,
+        "backgroundAsset": "background_329.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "sections": [
+      {
+        "title": "PokéXciting! Singapore",
+        "collectionId": "STAMP_RALLY_APAC_30_REGIONAL_SG",
+        "backgroundId": 336,
+        "backgroundAsset": "background_336.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 3359,
+            "stamps": 5,
+            "interval": 0,
+            "asset": "pokemon_25_f3359.png"
+          }
+        ]
+      },
+      {
+        "title": "PokéXciting! Cross-region Stamp - Kuala Lumpur",
+        "collectionId": "STAMP_RALLY_APAC_30_CROSS_REGIONAL",
+        "backgroundId": 334,
+        "backgroundAsset": "background_334.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 3358,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25_f3358.png"
+          }
+        ]
+      },
+      {
+        "title": "PokéXciting! Cross-region Stamp - Taipei",
+        "collectionId": "STAMP_RALLY_APAC_30_CROSS_REGIONAL",
+        "backgroundId": 335,
+        "backgroundAsset": "background_335.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 3360,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25_f3360.png"
+          }
+        ]
+      },
+      {
+        "title": "PokéXciting! Cross-region Stamp - Singapore",
+        "collectionId": "STAMP_RALLY_APAC_30_CROSS_REGIONAL",
+        "backgroundId": 336,
+        "backgroundAsset": "background_336.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 3359,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25_f3359.png"
+          }
+        ]
+      },
+      {
+        "title": "PokéXciting! Cross-region Stamp - Manila",
+        "collectionId": "STAMP_RALLY_APAC_30_CROSS_REGIONAL",
+        "backgroundId": 337,
+        "backgroundAsset": "background_337.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 3375,
+            "stamps": 1,
+            "interval": 0,
+            "asset": "pokemon_25_f3375.png"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "sections": [
+      {
+        "title": "Fukuoka",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 198,
+        "backgroundAsset": "background_198.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Saga",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 199,
+        "backgroundAsset": "background_199.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Nagasaki",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 200,
+        "backgroundAsset": "background_200.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Miyazaki",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 201,
+        "backgroundAsset": "background_201.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Kagoshima",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 202,
+        "backgroundAsset": "background_202.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Okinawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 203,
+        "backgroundAsset": "background_203.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Hokkaido",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 163,
+        "backgroundAsset": "background_163.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Aomori",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 164,
+        "backgroundAsset": "background_164.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Iwate",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 165,
+        "backgroundAsset": "background_165.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Miyagi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 166,
+        "backgroundAsset": "background_166.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Akita",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 167,
+        "backgroundAsset": "background_167.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Fukushima",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 168,
+        "backgroundAsset": "background_168.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Yamagata",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 169,
+        "backgroundAsset": "background_169.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Tochigi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 170,
+        "backgroundAsset": "background_170.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Saitama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 171,
+        "backgroundAsset": "background_171.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Chiba",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 172,
+        "backgroundAsset": "background_172.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Tokyo",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 173,
+        "backgroundAsset": "background_173.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Kanagawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 174,
+        "backgroundAsset": "background_174.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Ibaraki",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 175,
+        "backgroundAsset": "background_175.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Niigata",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 176,
+        "backgroundAsset": "background_176.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Toyama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 177,
+        "backgroundAsset": "background_177.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Ishikawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 178,
+        "backgroundAsset": "background_178.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Fukui",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 179,
+        "backgroundAsset": "background_179.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Gifu",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 180,
+        "backgroundAsset": "background_180.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Shizuoka",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 181,
+        "backgroundAsset": "background_181.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Aichi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 182,
+        "backgroundAsset": "background_182.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Mie",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 183,
+        "backgroundAsset": "background_183.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Shiga",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 184,
+        "backgroundAsset": "background_184.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Kyoto",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 185,
+        "backgroundAsset": "background_185.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Osaka",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 186,
+        "backgroundAsset": "background_186.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Hyogo",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 187,
+        "backgroundAsset": "background_187.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Nara",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 188,
+        "backgroundAsset": "background_188.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Wakayama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 189,
+        "backgroundAsset": "background_189.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Tottori",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 190,
+        "backgroundAsset": "background_190.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Shimane",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 191,
+        "backgroundAsset": "background_191.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Okayama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 192,
+        "backgroundAsset": "background_192.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Yamaguchi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 193,
+        "backgroundAsset": "background_193.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Tokushima",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 194,
+        "backgroundAsset": "background_194.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Kagawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 195,
+        "backgroundAsset": "background_195.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Ehime",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 196,
+        "backgroundAsset": "background_196.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Kochi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 197,
+        "backgroundAsset": "background_197.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      },
+      {
+        "title": "Nagano",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 206,
+        "backgroundAsset": "background_206.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "sections": [
+      {
+        "title": "Aichi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 182,
+        "backgroundAsset": "background_182.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "sections": [
+      {
+        "title": "Akita",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 167,
+        "backgroundAsset": "background_167.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "sections": [
+      {
+        "title": "Aomori",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 164,
+        "backgroundAsset": "background_164.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "sections": [
+      {
+        "title": "Chiba",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 172,
+        "backgroundAsset": "background_172.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "sections": [
+      {
+        "title": "Ehime",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 196,
+        "backgroundAsset": "background_196.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "sections": [
+      {
+        "title": "Fukui",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 179,
+        "backgroundAsset": "background_179.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "sections": [
+      {
+        "title": "Fukuoka",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 198,
+        "backgroundAsset": "background_198.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "12": {
+    "sections": [
+      {
+        "title": "Fukushima",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 168,
+        "backgroundAsset": "background_168.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "13": {
+    "sections": [
+      {
+        "title": "Gifu",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 180,
+        "backgroundAsset": "background_180.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "14": {
+    "sections": [
+      {
+        "title": "Hokkaido",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 163,
+        "backgroundAsset": "background_163.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "15": {
+    "sections": [
+      {
+        "title": "Hyogo",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 187,
+        "backgroundAsset": "background_187.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "16": {
+    "sections": [
+      {
+        "title": "Ibaraki",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 175,
+        "backgroundAsset": "background_175.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "17": {
+    "sections": [
+      {
+        "title": "Ishikawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 178,
+        "backgroundAsset": "background_178.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "18": {
+    "sections": [
+      {
+        "title": "Iwate",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 165,
+        "backgroundAsset": "background_165.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "19": {
+    "sections": [
+      {
+        "title": "Kagawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 195,
+        "backgroundAsset": "background_195.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "20": {
+    "sections": [
+      {
+        "title": "Kagoshima",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 202,
+        "backgroundAsset": "background_202.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "21": {
+    "sections": [
+      {
+        "title": "Kanagawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 174,
+        "backgroundAsset": "background_174.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "22": {
+    "sections": [
+      {
+        "title": "Kochi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 197,
+        "backgroundAsset": "background_197.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "23": {
+    "sections": [
+      {
+        "title": "Kyoto",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 185,
+        "backgroundAsset": "background_185.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "24": {
+    "sections": [
+      {
+        "title": "Mie",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 183,
+        "backgroundAsset": "background_183.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "25": {
+    "sections": [
+      {
+        "title": "Miyagi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 166,
+        "backgroundAsset": "background_166.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "26": {
+    "sections": [
+      {
+        "title": "Miyazaki",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 201,
+        "backgroundAsset": "background_201.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "27": {
+    "sections": [
+      {
+        "title": "Nagasaki",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 200,
+        "backgroundAsset": "background_200.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "28": {
+    "sections": [
+      {
+        "title": "Nara",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 188,
+        "backgroundAsset": "background_188.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "29": {
+    "sections": [
+      {
+        "title": "Niigata",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 176,
+        "backgroundAsset": "background_176.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "30": {
+    "sections": [
+      {
+        "title": "Okayama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 192,
+        "backgroundAsset": "background_192.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "31": {
+    "sections": [
+      {
+        "title": "Okinawa",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 203,
+        "backgroundAsset": "background_203.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "32": {
+    "sections": [
+      {
+        "title": "Osaka",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 186,
+        "backgroundAsset": "background_186.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "33": {
+    "sections": [
+      {
+        "title": "Saga",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 199,
+        "backgroundAsset": "background_199.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "34": {
+    "sections": [
+      {
+        "title": "Saitama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 171,
+        "backgroundAsset": "background_171.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "35": {
+    "sections": [
+      {
+        "title": "Shiga",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 184,
+        "backgroundAsset": "background_184.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "36": {
+    "sections": [
+      {
+        "title": "Shimane",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 191,
+        "backgroundAsset": "background_191.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "37": {
+    "sections": [
+      {
+        "title": "Shizuoka",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 181,
+        "backgroundAsset": "background_181.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "38": {
+    "sections": [
+      {
+        "title": "Tochigi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 170,
+        "backgroundAsset": "background_170.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "39": {
+    "sections": [
+      {
+        "title": "Tokushima",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 194,
+        "backgroundAsset": "background_194.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "40": {
+    "sections": [
+      {
+        "title": "Tokyo",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 173,
+        "backgroundAsset": "background_173.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "41": {
+    "sections": [
+      {
+        "title": "Tottori",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 190,
+        "backgroundAsset": "background_190.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "42": {
+    "sections": [
+      {
+        "title": "Toyama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 177,
+        "backgroundAsset": "background_177.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "43": {
+    "sections": [
+      {
+        "title": "Wakayama",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 189,
+        "backgroundAsset": "background_189.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "44": {
+    "sections": [
+      {
+        "title": "Yamagata",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 169,
+        "backgroundAsset": "background_169.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "45": {
+    "sections": [
+      {
+        "title": "Yamaguchi",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 193,
+        "backgroundAsset": "background_193.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "46": {
+    "sections": [
+      {
+        "title": "LEGO Global 2026",
+        "collectionId": "STAMP_RALLY_LEGO_GLOBAL_2026",
+        "backgroundId": 281,
+        "backgroundAsset": "background_281.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 1,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "47": {
+    "sections": [
+      {
+        "title": "Tokyo, Minato City",
+        "collectionId": "STAMP_RALLY_TOKYO_MINATO_2026",
+        "backgroundId": 273,
+        "backgroundAsset": "background_273.webp",
+        "pokemon": [
+          {
+            "id": 183,
+            "form": 1196,
+            "stamps": 2,
+            "interval": 0,
+            "asset": "pokemon_183.png"
+          },
+          {
+            "id": 131,
+            "form": 322,
+            "stamps": 4,
+            "interval": 0,
+            "asset": "pokemon_131.png"
+          },
+          {
+            "id": 1,
+            "form": 163,
+            "stamps": 5,
+            "interval": 0,
+            "asset": "pokemon_1.png"
+          }
+        ]
+      },
+      {
+        "title": "Tokyo, Koto City",
+        "collectionId": "STAMP_RALLY_TOKYO_KOTO_2026",
+        "backgroundId": 272,
+        "backgroundAsset": "background_272.webp",
+        "pokemon": [
+          {
+            "id": 278,
+            "form": 1406,
+            "stamps": 2,
+            "interval": 0,
+            "asset": "pokemon_278.png"
+          },
+          {
+            "id": 7,
+            "form": 181,
+            "stamps": 4,
+            "interval": 0,
+            "asset": "pokemon_7.png"
+          }
+        ]
+      },
+      {
+        "title": "Tokyo, Shinagawa City",
+        "collectionId": "STAMP_RALLY_TOKYO_SHINAGAWA_2026",
+        "backgroundId": 271,
+        "backgroundAsset": "background_271.webp",
+        "pokemon": [
+          {
+            "id": 79,
+            "form": 1017,
+            "stamps": 2,
+            "interval": 0,
+            "asset": "pokemon_79.png"
+          },
+          {
+            "id": 4,
+            "form": 172,
+            "stamps": 4,
+            "interval": 0,
+            "asset": "pokemon_4.png"
+          }
+        ]
+      }
+    ]
+  },
+  "48": {
+    "sections": [
+      {
+        "title": "Suita City",
+        "collectionId": "STAMP_RALLY_SUITA_CITY_2025",
+        "backgroundId": 94,
+        "backgroundAsset": "background_94.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 5,
+            "interval": 0,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "49": {
+    "sections": [
+      {
+        "title": "Nagasaki City",
+        "collectionId": "STAMP_RALLY_NAGASAKI_2025",
+        "backgroundId": 157,
+        "backgroundAsset": "background_157.webp",
+        "pokemon": [
+          {
+            "id": 181,
+            "form": 652,
+            "stamps": 8,
+            "interval": 0,
+            "asset": "pokemon_181.png"
+          }
+        ]
+      }
+    ]
+  },
+  "55": {
+    "sections": [
+      {
+        "title": "Nagano",
+        "collectionId": "POKELID_COLLECTION",
+        "backgroundId": 206,
+        "backgroundAsset": "background_206.webp",
+        "pokemon": [
+          {
+            "id": 25,
+            "form": 598,
+            "stamps": 0,
+            "interval": 2,
+            "asset": "pokemon_25.png"
+          }
+        ]
+      }
+    ]
+  },
+  "56": {
+    "sections": [
+      {
+        "title": "Día de Muertos 2026",
+        "collectionId": "STAMP_RALLY_DIA_DE_MUERTOS_2026",
+        "backgroundId": 8,
+        "backgroundAsset": "background_8.webp",
+        "pokemon": [
+          {
+            "id": 355,
+            "form": 914,
+            "stamps": 6,
+            "interval": 0,
+            "asset": "pokemon_355_c58.png"
+          }
+        ]
+      }
+    ]
+  },
+  "57": {
+    "sections": [
+      {
+        "title": "Mexico City Hawlucha",
+        "collectionId": "STAMP_RALLY_GOWA_2026_EVERGREEN_MEXICOCITY",
+        "backgroundId": 419,
+        "backgroundAsset": "background_419.webp",
+        "pokemon": [
+          {
+            "id": 701,
+            "form": 3063,
+            "stamps": 8,
+            "interval": 0,
+            "asset": "pokemon_701.png"
+          }
+        ]
+      }
+    ]
+  },
+  "58": {
+    "sections": [
+      {
+        "title": "Sendai Lapras",
+        "collectionId": "STAMP_RALLY_GOWA_2026_EVERGREEN_SENDAI",
+        "backgroundId": 418,
+        "backgroundAsset": "background_418.webp",
+        "pokemon": [
+          {
+            "id": 131,
+            "form": 322,
+            "stamps": 8,
+            "interval": 0,
+            "asset": "pokemon_131.png"
+          }
+        ]
+      }
+    ]
+  }
+}

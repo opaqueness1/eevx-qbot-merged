@@ -1,0 +1,34 @@
+/* Enhanced Play preview map pages (?look=page): tiles at full clarity, quiet attribution on the
+   left, rounded themed controls on the right, an accent location halo and a light destination pin.
+   Every rule is scoped to html.page, so the scenario maps keep their look. */
+html.page .leaflet-tile-pane { filter: none; }
+html.page .leaflet-container { font-family: sans-serif; }
+html.page .leaflet-control-attribution {
+  background: rgba(9, 17, 13, .62) !important; color: #c3d2c8; font-size: 9px; line-height: 15px;
+  padding: 0 6px; border-top-right-radius: 6px;
+}
+html.page .leaflet-control-attribution a { color: #d7eadc; text-decoration: none; }
+html.page .leaflet-attribution-flag { display: none !important; }
+html.page .leaflet-bottom.leaflet-right { right: auto; left: 0; }
+html.page .leaflet-bottom.leaflet-right .leaflet-control { float: left; margin: 0; }
+html.page .leaflet-top.leaflet-right { top: auto; bottom: 12px; right: 12px; }
+html.page .leaflet-top.leaflet-right .leaflet-control { margin: 0; }
+html.page .leaflet-bar, html.page.leaflet-touch .leaflet-bar, html.page .leaflet-touch .leaflet-bar {
+  border: 1px solid #30463a; border-radius: 14px; overflow: hidden; background-clip: padding-box;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .35);
+}
+html.page .leaflet-bar a, html.page .leaflet-touch .leaflet-bar a {
+  width: 48px; height: 48px; line-height: 46px; font: 400 26px/46px sans-serif;
+  background-color: #19261f; color: #e7f1e9; border-bottom: 1px solid #30463a; border-radius: 0 !important;
+}
+html.page .leaflet-bar a:last-child { border-bottom: none; }
+html.page .leaflet-bar a:active { background-color: #183d27; color: #91d9a5; }
+html.page .leaflet-bar a.leaflet-disabled { background-color: #19261f; color: #52705c; }
+html.page .me { background: rgba(145, 217, 165, .26); border: 1.5px solid rgba(145, 217, 165, .75); border-radius: 50%; box-sizing: border-box; }
+html.page .me::after {
+  content: ''; position: absolute; left: 50%; top: 50%; width: 16px; height: 16px; margin: -8px 0 0 -8px;
+  border-radius: 50%; background: #91d9a5; border: 3px solid #ffffff; box-sizing: border-box;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .45);
+}
+html.page .dest-pin { background: none; border: none; }
+html.page .dest-pin svg { filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .45)); }

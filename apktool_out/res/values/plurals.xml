@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bulk_delete_complete">
+        <item quantity="other">Deleted %1$d accounts</item>
+        <item quantity="one">Deleted %1$d account</item>
+    </plurals>
+    <plurals name="bulk_delete_title">
+        <item quantity="other">Delete %1$d accounts?</item>
+        <item quantity="one">Delete %1$d account?</item>
+    </plurals>
+</resources>

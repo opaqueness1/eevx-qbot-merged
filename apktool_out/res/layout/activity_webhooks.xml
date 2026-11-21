@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/canvas" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.PGX.Card">
+                <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/webhookSummaryRow" layout="@layout/row_profile_item" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/webhookSummaryBody" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputLayout android:id="@id/webhookSummaryUrlLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:hint="Webhook URL" app:endIconContentDescription="Edit webhook URL" app:endIconDrawable="@drawable/ui_design_edit" app:endIconMode="custom" style="@style/Widget.PGX.OutlinedField">
+                            <com.google.android.material.textfield.TextInputEditText android:textColor="@color/ink" android:id="@id/webhookSummaryUrl" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textUri" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <TextView android:paddingTop="8.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Send results after a run." style="@style/Text.Hint" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/Widget.PGX.Card">
+                <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/webhookCatchRow" layout="@layout/row_profile_item" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/webhookCatchBody" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputLayout android:id="@id/webhookCatchUrlLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:hint="Webhook URL" app:endIconContentDescription="Edit webhook URL" app:endIconDrawable="@drawable/ui_design_edit" app:endIconMode="custom" style="@style/Widget.PGX.OutlinedField">
+                            <com.google.android.material.textfield.TextInputEditText android:textColor="@color/ink" android:id="@id/webhookCatchUrl" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textUri" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Match all selected conditions" style="@style/Text.RowTitle" />
+                            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Selected conditions use AND." style="@style/Text.Hint" />
+                        </LinearLayout>
+                        <include android:id="@id/webhookShinyRow" layout="@layout/row_profile_item" />
+                        <include android:id="@id/webhookHundoRow" layout="@layout/row_profile_item" />
+                        <include android:id="@id/webhookBackgroundRow" layout="@layout/row_profile_item" />
+                        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primary" android:id="@id/webhookConditionPreview" android:background="@drawable/ui_preview_box" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" />
+                        <TextView android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="No conditions selected = all catches." style="@style/Text.Hint" />
+                        <com.google.android.material.button.MaterialButton android:id="@id/webhookTestCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:text="Send test card" style="@style/Widget.Material3.Button.OutlinedButton" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.button.MaterialButton android:id="@id/webhookSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="Save changes" style="@style/Widget.PGX.PrimaryButton" />
+</LinearLayout>

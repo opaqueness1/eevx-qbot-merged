@@ -1,0 +1,560 @@
+{
+  "schemaVersion": 2,
+  "options": {
+    "encounterShinyOnly": {
+      "type": "boolean"
+    },
+    "encounterFastCatch": {
+      "type": "boolean"
+    },
+    "preventMetadataLag": {
+      "type": "boolean"
+    },
+    "talkToWillow": {
+      "type": "boolean"
+    },
+    "skipWillowDialogs": {
+      "type": "boolean"
+    },
+    "skipMedalAnimation": {
+      "type": "boolean"
+    },
+    "forceBiomes": {
+      "type": "boolean"
+    },
+    "skipXpAwardScreen": {
+      "type": "boolean"
+    },
+    "skipPokestopIncidents": {
+      "type": "boolean"
+    },
+    "skipGruntDialog": {
+      "type": "boolean"
+    },
+    "CampfireEnabled": {
+      "type": "boolean"
+    },
+    "ivNotice": {
+      "type": "boolean"
+    },
+    "ivNoticeDetailed": {
+      "type": "boolean"
+    },
+    "throwAimAssist": {
+      "type": "boolean"
+    },
+    "amateurThrows": {
+      "type": "boolean"
+    },
+    "alwaysShowHitReaction": {
+      "type": "boolean"
+    },
+    "giftStickers": {
+      "type": "boolean"
+    },
+    "hideTrainerName": {
+      "type": "boolean"
+    },
+    "privacyAltName": {
+      "type": "boolean"
+    },
+    "hideRoads": {
+      "type": "boolean"
+    },
+    "buddyCare.battle": {
+      "type": "boolean"
+    },
+    "buddyCare.snapshots": {
+      "type": "boolean"
+    },
+    "buddyCare.quickSwap": {
+      "type": "boolean"
+    },
+    "doubleTapTeleport": {
+      "type": "boolean"
+    },
+    "trackToTeleport": {
+      "type": "boolean"
+    },
+    "mapTapAction": {
+      "type": "enum",
+      "values": [
+        "none",
+        "walk",
+        "teleport"
+      ]
+    },
+    "mapDoubleTapAction": {
+      "type": "enum",
+      "values": [
+        "none",
+        "walk",
+        "teleport"
+      ]
+    },
+    "teleportNearbyPokemon": {
+      "type": "boolean"
+    },
+    "teleportNearbyRaids": {
+      "type": "boolean"
+    },
+    "tapToCatch": {
+      "type": "boolean"
+    },
+    "tapToSpin": {
+      "type": "boolean"
+    },
+    "holdToSkip": {
+      "type": "boolean"
+    },
+    "hapticEffects": {
+      "type": "boolean"
+    },
+    "ballPriority": {
+      "type": "integer-set",
+      "minimum": 1,
+      "maximum": 3,
+      "maximumLength": 3,
+      "values": [
+        1,
+        2,
+        3
+      ]
+    },
+    "megaEvolutionBranch": {
+      "type": "enum",
+      "values": [
+        "X",
+        "Y"
+      ]
+    },
+    "nearbyRaidsSort": {
+      "type": "record",
+      "partial": true,
+      "fields": {
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "ascending": {
+          "type": "boolean"
+        }
+      }
+    },
+    "nearbyMaxBattlesSort": {
+      "type": "record",
+      "partial": true,
+      "fields": {
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "ascending": {
+          "type": "boolean"
+        }
+      }
+    },
+    "frameRateLimit": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 144
+    },
+    "incubateSkippedEggs": {
+      "type": "record",
+      "partial": true,
+      "fields": {
+        "2": {
+          "type": "boolean"
+        },
+        "5": {
+          "type": "boolean"
+        },
+        "7": {
+          "type": "boolean"
+        },
+        "10": {
+          "type": "boolean"
+        },
+        "12": {
+          "type": "boolean"
+        }
+      }
+    },
+    "spawnTrackerChoices": {
+      "type": "record",
+      "partial": true,
+      "fields": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "sortBy": {
+          "type": "enum",
+          "values": [
+            "distance",
+            "despawn_time",
+            "cooldown"
+          ]
+        },
+        "globalEnabled": {
+          "type": "boolean"
+        },
+        "globalIv": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "globalMinLevel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "globalMaxLevel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "globalGenders": {
+          "type": "integer-set",
+          "minimum": 1,
+          "maximum": 3,
+          "maximumLength": 3
+        },
+        "globalSizes": {
+          "type": "integer-set",
+          "minimum": 1,
+          "maximum": 5,
+          "maximumLength": 5
+        },
+        "globalMaxIv": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "globalIvExact": {
+          "type": "boolean"
+        },
+        "globalExactIvs": {
+          "type": "integer-set",
+          "minimum": 0,
+          "maximum": 4095,
+          "maximumLength": 32
+        },
+        "globalMinCp": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "globalMaxCp": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "globalPvpLeague": {
+          "type": "enum",
+          "values": [
+            0,
+            500,
+            1500,
+            2500
+          ]
+        },
+        "globalPvpTop": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 32
+        },
+        "costumeOnly": {
+          "type": "boolean"
+        },
+        "species": {
+          "type": "integer-set",
+          "minimum": 1,
+          "maximum": 2000,
+          "maximumLength": 100
+        },
+        "priority": {
+          "type": "integer-set",
+          "minimum": 1,
+          "maximum": 2000,
+          "maximumLength": 100
+        },
+        "filters": {
+          "type": "record-map",
+          "minimumKey": 1,
+          "maximumKey": 2000,
+          "maximumSize": 100,
+          "value": {
+            "type": "record",
+            "partial": true,
+            "fields": {
+              "useGlobal": {
+                "type": "boolean"
+              },
+              "iv": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "minLevel": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 50
+              },
+              "maxLevel": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 50
+              },
+              "genders": {
+                "type": "integer-set",
+                "minimum": 1,
+                "maximum": 3,
+                "maximumLength": 3
+              },
+              "sizes": {
+                "type": "integer-set",
+                "minimum": 1,
+                "maximum": 5,
+                "maximumLength": 5
+              },
+              "forms": {
+                "type": "integer-set",
+                "minimum": 0,
+                "maximum": 1000000,
+                "maximumLength": 16
+              },
+              "costumes": {
+                "type": "integer-set",
+                "minimum": 0,
+                "maximum": 1000000,
+                "maximumLength": 16
+              },
+              "pvpLeague": {
+                "type": "enum",
+                "values": [
+                  0,
+                  500,
+                  1500,
+                  2500
+                ]
+              },
+              "pvpTarget": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 2000
+              },
+              "pvpTop": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 32
+              }
+            }
+          }
+        },
+        "rangeEnabled": {
+          "type": "boolean"
+        },
+        "rangeType": {
+          "type": "enum",
+          "values": [
+            "manual",
+            "cooldown"
+          ]
+        },
+        "rangeLatitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "rangeLongitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "rangeRadiusKm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 6999
+        },
+        "localTimeEnabled": {
+          "type": "boolean"
+        },
+        "localTimeFrom": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9912312359
+        },
+        "localTimeTo": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9912312359
+        }
+      }
+    },
+    "raidAssistChoices": {
+      "type": "record",
+      "partial": true,
+      "fields": {
+        "useStrategyInMaxBattles": {
+          "type": "boolean"
+        },
+        "autoDodge": {
+          "type": "boolean"
+        },
+        "showBossMoves": {
+          "type": "boolean"
+        },
+        "skipMaxBattleResults": {
+          "type": "boolean"
+        },
+        "skipRaidResults": {
+          "type": "boolean"
+        }
+      }
+    },
+    "nearbyAlertChoices": {
+      "type": "record",
+      "partial": true,
+      "fields": {
+        "alertShiny": {
+          "type": "boolean"
+        },
+        "alertIv": {
+          "type": "boolean"
+        },
+        "alertMinIv": {
+          "type": "integer",
+          "minimum": 50,
+          "maximum": 100
+        },
+        "alertZeroIv": {
+          "type": "boolean"
+        },
+        "alertDitto": {
+          "type": "boolean"
+        },
+        "alertLegendary": {
+          "type": "boolean"
+        },
+        "alertBackground": {
+          "type": "boolean"
+        },
+        "alertMedalNeeded": {
+          "type": "boolean"
+        },
+        "alertXxlXxs": {
+          "type": "boolean"
+        },
+        "alertXxl": {
+          "type": "boolean"
+        },
+        "alertXxs": {
+          "type": "boolean"
+        }
+      }
+    },
+    "catchTransferMinIv": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "nullable": true
+    },
+    "catchTransferExactIv": {
+      "type": "iv-triple",
+      "nullable": true
+    },
+    "catchTransferShadow": {
+      "type": "boolean"
+    },
+    "catchTransferShiny": {
+      "type": "boolean"
+    },
+    "catchTransferBackground": {
+      "type": "boolean"
+    },
+    "catchTransferSizes": {
+      "type": "enum",
+      "values": [
+        [],
+        [
+          5
+        ],
+        [
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    "catchTransferIgnoredPokemon": {
+      "type": "integer-set",
+      "minimum": 1,
+      "maximum": 2147483647,
+      "maximumLength": 4096
+    },
+    "catchTransferKeepIvEnabled": {
+      "type": "boolean"
+    },
+    "catchTransferKeepIvPercent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "catchTransferKeepCpEnabled": {
+      "type": "boolean"
+    },
+    "catchTransferKeepCp": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000
+    },
+    "catchTransferKeepShiny": {
+      "type": "boolean"
+    },
+    "catchTransferKeepHundo": {
+      "type": "boolean"
+    },
+    "catchTransferKeepNundo": {
+      "type": "boolean"
+    },
+    "catchTransferKeepLegendary": {
+      "type": "boolean"
+    },
+    "catchTransferKeepBackground": {
+      "type": "boolean"
+    },
+    "catchTransferKeepCostume": {
+      "type": "boolean"
+    },
+    "catchTransferKeepHatched": {
+      "type": "boolean"
+    },
+    "catchTransferKeepXxs": {
+      "type": "boolean"
+    },
+    "catchTransferKeepXxl": {
+      "type": "boolean"
+    },
+    "catchTransferKeepSpecies": {
+      "type": "integer-set",
+      "minimum": 1,
+      "maximum": 2147483647,
+      "maximumLength": 4096
+    },
+    "catchTransferKeepShadow": {
+      "type": "boolean"
+    },
+    "catchTransferMinPvpRank": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000
+    },
+    "catchTransferNotice": {
+      "type": "boolean"
+    }
+  }
+}

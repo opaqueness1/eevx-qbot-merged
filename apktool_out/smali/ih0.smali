@@ -1,0 +1,22 @@
+.class public final synthetic Lih0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ly30;
+
+
+# instance fields
+.field public final synthetic a:I
+
+
+# direct methods
+.method public synthetic constructor <init>(I)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, Lih0;->a:I
+
+    return-void
+.end method

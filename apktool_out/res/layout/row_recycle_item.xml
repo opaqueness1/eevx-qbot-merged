@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/recycleItemSprite" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/recycleItemName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text.RowTitle" />
+        <TextView android:id="@id/recycleItemSummary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/Text.Hint" />
+    </LinearLayout>
+    <EditText android:textSize="16.0sp" android:textColor="@color/ink" android:textColorHint="@color/muted" android:gravity="center" android:id="@id/recycleItemMax" android:background="@drawable/ui_number_input" android:layout_width="88.0dip" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:hint="@string/auto_recycle_no_limit" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="5" android:inputType="number" android:imeOptions="actionDone" android:importantForAutofill="no" />
+</LinearLayout>
