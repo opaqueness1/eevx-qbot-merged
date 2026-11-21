@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.34 — Max Battle without reward catch (2026-11-21)
+- Eternatus sets `SkipRewardEncounter`; a won Max Battle with no post-battle encounter
+  no longer fails with `max-earned-encounter-missing`.
+- APK: `Eevx-qbot-merged-v0.1.34.apk`
+- SHA-256: `86b7d177d3883c0df48d683dc455763fd40faa2724a0d6b4568aecc5d01e16be`
+
 ## v0.1.33 — Max Battle tap and state bindings (2026-11-21)
 - Mapped the 0.437/0.439 fast-attack tap method and native battle state API.
 - APK: `Eevx-qbot-merged-v0.1.33.apk`
