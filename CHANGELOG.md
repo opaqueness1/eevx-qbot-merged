@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.9 — Eternatus form matching (2026-11-21)
+- Max Raid target matching accepts either Eternatus form (`2580` Eternamax or `2581`
+  Normal) for species `890`, so selecting Normal no longer misses an Eternamax Max
+  Battle. Other species remain exact-form matches.
+- APK: `Eevx-qbot-merged-v0.1.9.apk`
+- SHA-256: `896225bba515a090cd05a00dd42e68973ce4dd110b3afe4e4ffef07dfbec20e1`
+
 ## v0.1.8 — Il2Cpp dump-backed 0.437/0.439 maps (2026-11-21)
 - Built full Il2CppDumper v39 dumps for 0.435.2, 0.437.0 and 0.439.0.
 - Added generated 0.437.0/0.439.0 class and member maps to both resident agents, with

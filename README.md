@@ -1,15 +1,15 @@
-# Eevx — QBOT merge fork (v0.1.8)
+# Eevx — QBOT merge fork (v0.1.9)
 
 A fork of the Eevx patch (`com.pgexplorations.controller`, upstream base 1.7.124)
 that backports two behaviours from a colleague's QBOT fork onto our patched
 1.7.124 tree. Our own `v2.1.16` build is unchanged and remains in
 [`eevx-project`](https://github.com/opaqueness1/eevx-project).
 
-- versionName: `0.1.8-qbot-merged+upstream.1.7.124`
-- versionCode: `2001169` (above `v2.1.16`, so it shares the same signing key and
+- versionName: `0.1.9-qbot-merged+upstream.1.7.124`
+- versionCode: `2001170` (above `v2.1.16`, so it shares the same signing key and
   can be installed alongside/over it)
-- APK: `Eevx-qbot-merged-v0.1.8.apk`
-- SHA-256: `e81222e0d0afb0bcc9bda1f42bab9e03943b297280da308ef2b2f9ca551d44a5`
+- APK: `Eevx-qbot-merged-v0.1.9.apk`
+- SHA-256: `896225bba515a090cd05a00dd42e68973ce4dd110b3afe4e4ffef07dfbec20e1`
 
 ## What the merge changes
 
@@ -56,6 +56,12 @@ Upstream stopped at the 0.435.2 whitelist, so a current install was blocked with
 - The agent maps both new versions to its last known 0.435.2 class/member tables and
   reports fingerprint support instead of hard-blocking on `package-version`,
   `unity-version` or `il2cpp-size`.
+
+### 5. Eternatus form matching
+
+Max Battle Eternatus spawns as `ETERNATUS_ETERNAMAX` (`2580`), while the picker can
+present `ETERNATUS_NORMAL` (`2581`). The target matcher now treats species `890` as a
+form pair, accepting either form while keeping exact matching for every other species.
 
 Decimal 0.437.0/0.439.0 use different Il2Cpp layouts from 0.435.2. A full offline
 Il2CppDumper v39 run was made for 0.435.2, 0.437.0 and 0.439.0, and the agent now

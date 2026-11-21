@@ -12,8 +12,8 @@ packageInfo:
   forcedPackageId: 127
   renameManifestPackage: null
 versionInfo:
-  versionCode: 2001169
-  versionName: 0.1.8-qbot-merged+upstream.1.7.124
+  versionCode: 2001170
+  versionName: 0.1.9-qbot-merged+upstream.1.7.124
 sharedLibrary: false
 sparseResources: false
 compactEntries: false
