@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.31 — 0.437 Max Battle input bindings (2026-11-21)
+- Mapped 0.437/0.439 `BreadBattleState` gesture handler and battle GUI fields.
+- Mapped charge group, ability panel, panel data/widgets and ability widget data.
+- `h2` now tries every mapped candidate instead of failing on the first stale one.
+- APK: `Eevx-qbot-merged-v0.1.31.apk`
+- SHA-256: `571e45131eadab33211d8542a4f7f488eae6308e3176af87e4325afa76992575`
+
 ## v0.1.29 — Max Raid minimum players (2026-11-21)
 - Added `minimumPlayersBeforeJoining` to the `max_raid` scenario parameters.
 - Max Raid combines that value with its stored area-config minimum.
