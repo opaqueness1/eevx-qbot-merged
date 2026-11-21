@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.33 — Max Battle tap and state bindings (2026-11-21)
+- Mapped the 0.437/0.439 fast-attack tap method and native battle state API.
+- APK: `Eevx-qbot-merged-v0.1.33.apk`
+- SHA-256: `3e214a9ce99954510b00a8e166b193e62e86b6553749b55f3fcfa3f02161a703`
+
 ## v0.1.31 — 0.437 Max Battle input bindings (2026-11-21)
 - Mapped 0.437/0.439 `BreadBattleState` gesture handler and battle GUI fields.
 - Mapped charge group, ability panel, panel data/widgets and ability widget data.
