@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "releaseId": "frida-17.16.4-agent-3.4.427-cumulative-stock-431c444d9f992a5c-game437",
+  "releaseId": "frida-17.16.4-agent-3.4.427-cumulative-stock-431c444d9f992a5c-game437r3",
   "backend": "root_on_demand",
   "supportedScenarios": [
     "stamp_rally",
@@ -38,10 +38,10 @@
   "agent": {
     "asset": "root-on-demand/agent.js",
     "version": "3.4.427-cumulative",
-    "sha256": "b2cae06980d49f1d152036b5a8ca9c6ed28e9c8c649284b0e9dc01d4078a8b73",
-    "size": 3418154,
+    "sha256": "999da44b5c3603ddf6fd9af8f8c0d9634fbd4e56b31ec7cd0a2f8ee179afcfdc",
+    "size": 3465909,
     "download": {
-      "path": "runtime/residents/b2cae06980d49f1d152036b5a8ca9c6ed28e9c8c649284b0e9dc01d4078a8b73.gz",
+      "path": "runtime/residents/999da44b5c3603ddf6fd9af8f8c0d9634fbd4e56b31ec7cd0a2f8ee179afcfdc.gz",
       "encoding": "gzip",
       "sha256": "1abbeb3d046f8ad178e27902bdfa699d88ee9f3e7d326f4c6f9945e56d7c8e96",
       "size": 930695
@@ -64,8 +64,8 @@
   "agentGadget": {
     "asset": "root-on-demand/agent-gadget.js",
     "version": "3.4.427-cumulative",
-    "sha256": "387d7df20fef72a5959b35ffefd9fe9b1f2ace5d254631775ec423f91a7ff016",
-    "size": 3418986,
+    "sha256": "005b055c68b204eb9bccd2a3a034e2b964e83f6e57e6cb02c291f04b1384672d",
+    "size": 3466741,
     "download": {
       "path": "runtime/residents/647435115520a1a29997449fc8230f3da21657a4c3165fcb25f149edf6892d04.gz",
       "encoding": "gzip",
@@ -106,8 +106,8 @@
       }
     },
     "agentGadget": {
-      "sha256": "387d7df20fef72a5959b35ffefd9fe9b1f2ace5d254631775ec423f91a7ff016",
-      "size": 3418986
+      "sha256": "005b055c68b204eb9bccd2a3a034e2b964e83f6e57e6cb02c291f04b1384672d",
+      "size": 3466741
     }
   }
 }

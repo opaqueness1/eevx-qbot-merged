@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.8 — Il2Cpp dump-backed 0.437/0.439 maps (2026-11-21)
+- Built full Il2CppDumper v39 dumps for 0.435.2, 0.437.0 and 0.439.0.
+- Added generated 0.437.0/0.439.0 class and member maps to both resident agents, with
+  raw build selection for renames while compatibility tables keep their 0.435.2
+  fallback.
+- Refreshed runtime manifest hashes, resident path, ptrace agent hash and release id.
+- APK: `Eevx-qbot-merged-v0.1.8.apk`
+- SHA-256: `e81222e0d0afb0bcc9bda1f42bab9e03943b297280da308ef2b2f9ca551d44a5`
+- Dumps: release assets `pokemon-go-0.435.2/0.437.0/0.439.0-il2cpp-dump.zip`.
+
 ## v0.1.6 — Pokémon GO 0.437.0/0.439.0 support (2026-11-20)
 - App version whitelist accepts `0.437.0` and `0.439.0`, including the Grunts gate.
 - Scenario catalog digest sent to the runtime now matches the bundled agent

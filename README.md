@@ -1,15 +1,15 @@
-# Eevx — QBOT merge fork (v0.1.6)
+# Eevx — QBOT merge fork (v0.1.8)
 
 A fork of the Eevx patch (`com.pgexplorations.controller`, upstream base 1.7.124)
 that backports two behaviours from a colleague's QBOT fork onto our patched
 1.7.124 tree. Our own `v2.1.16` build is unchanged and remains in
 [`eevx-project`](https://github.com/opaqueness1/eevx-project).
 
-- versionName: `0.1.6-qbot-merged+upstream.1.7.124`
-- versionCode: `2001167` (above `v2.1.16`, so it shares the same signing key and
+- versionName: `0.1.8-qbot-merged+upstream.1.7.124`
+- versionCode: `2001169` (above `v2.1.16`, so it shares the same signing key and
   can be installed alongside/over it)
-- APK: `Eevx-qbot-merged-v0.1.6.apk`
-- SHA-256: `e9abee9bc0c2de13d488ee89a2c14ac0fa9f1ed38e2acc69c93c51c260293cb3`
+- APK: `Eevx-qbot-merged-v0.1.8.apk`
+- SHA-256: `e81222e0d0afb0bcc9bda1f42bab9e03943b297280da308ef2b2f9ca551d44a5`
 
 ## What the merge changes
 
@@ -57,12 +57,13 @@ Upstream stopped at the 0.435.2 whitelist, so a current install was blocked with
   reports fingerprint support instead of hard-blocking on `package-version`,
   `unity-version` or `il2cpp-size`.
 
-Decimal 0.437.0/0.439.0 use different Il2Cpp layouts from 0.435.2. The mapping is
-enough to start the runtime and install all hooks, but version-specific offsets are
-still the 0.435.2 ones. A true native re-dump is needed for exhaustive coverage; the
-game-master JSON alone does not provide Il2Cpp offsets. Tested on a Pixel 4 XL with
-0.437.0: runtime reaches `playing=true` and `daily_free_raid_pass` leaves the
-compatibility gate.
+Decimal 0.437.0/0.439.0 use different Il2Cpp layouts from 0.435.2. A full offline
+Il2CppDumper v39 run was made for 0.435.2, 0.437.0 and 0.439.0, and the agent now
+carries per-version class/member maps generated from those dumps. Untouched helper
+tables still fall back to 0.435.2. The dumps are published as release assets on this
+repository (`pokemon-go-<version>-il2cpp-dump.zip`). Tested on a Pixel 4 XL with
+0.437.0: runtime reaches `playing=true`, compatibility is `supported-fingerprint`,
+and `daily_free_raid_pass` leaves the compatibility gate.
 
 ## Not carried over
 
