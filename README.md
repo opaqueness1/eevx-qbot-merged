@@ -1,15 +1,15 @@
-# Eevx — QBOT merge fork (v0.1.9)
+# Eevx — QBOT merge fork (v0.1.14)
 
 A fork of the Eevx patch (`com.pgexplorations.controller`, upstream base 1.7.124)
 that backports two behaviours from a colleague's QBOT fork onto our patched
 1.7.124 tree. Our own `v2.1.16` build is unchanged and remains in
 [`eevx-project`](https://github.com/opaqueness1/eevx-project).
 
-- versionName: `0.1.9-qbot-merged+upstream.1.7.124`
-- versionCode: `2001170` (above `v2.1.16`, so it shares the same signing key and
+- versionName: `0.1.14-qbot-merged+upstream.1.7.124`
+- versionCode: `2001175` (above `v2.1.16`, so it shares the same signing key and
   can be installed alongside/over it)
-- APK: `Eevx-qbot-merged-v0.1.9.apk`
-- SHA-256: `896225bba515a090cd05a00dd42e68973ce4dd110b3afe4e4ffef07dfbec20e1`
+- APK: `Eevx-qbot-merged-v0.1.14.apk`
+- SHA-256: `9c89fa8659233c293d278ff3a6726ab4e798f03ce1534ec985297b7e9d975923`
 
 ## What the merge changes
 
@@ -56,6 +56,14 @@ Upstream stopped at the 0.435.2 whitelist, so a current install was blocked with
 - The agent maps both new versions to its last known 0.435.2 class/member tables and
   reports fingerprint support instead of hard-blocking on `package-version`,
   `unity-version` or `il2cpp-size`.
+
+### 6. Max Raid compatibility fixes for 0.437
+
+- Moved `IMapPlace` lookup now falls back across the interface assemblies after the type
+  moved out of `holo-game.dll`.
+- Max Raid accepts non-zero location-plan progress instead of requiring index 0.
+- Max Orb hook RVAs and method names are mapped for 0.437/0.439, and the orb binder
+  resolves against the raw build instead of the compatibility alias.
 
 ### 5. Eternatus form matching
 

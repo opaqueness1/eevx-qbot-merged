@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.1.14 — Max Raid compatibility (2026-11-21)
+- `IMapPlace` moved from `holo-game.dll` to `holo-game-interfaces.dll` in 0.437; class
+  lookup now falls back across the runtime interface assemblies.
+- Accept Max Raid location plans whose applied index/sequence are non-zero.
+- Add 0.437/0.439 Max Orb RVAs and tap/response names, selected by raw build.
+- APK: `Eevx-qbot-merged-v0.1.14.apk`
+- SHA-256: `9c89fa8659233c293d278ff3a6726ab4e798f03ce1534ec985297b7e9d975923`
+
 ## v0.1.9 — Eternatus form matching (2026-11-21)
 - Max Raid target matching accepts either Eternatus form (`2580` Eternamax or `2581`
   Normal) for species `890`, so selecting Normal no longer misses an Eternamax Max
