@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.36 — Close no-reward Max Battle result (2026-11-21)
+- A successful Eternatus Max Battle with no reward encounter never dispatched the
+  resolve screen close, so `map-closure` timed out. Status 2 now closes the result
+  UI when no encounter/catch path is present.
+- APK: `Eevx-qbot-merged-v0.1.36.apk`
+- SHA-256: `0e8e118e65f8db7a8b4eb10b9df8709bf910a121fff0d00983ed0b99ca295bf0`
+
 ## v0.1.35 — Max Battle result without encounter (2026-11-21)
 - The resolve-GUI hook itself threw `max-earned-encounter-missing` before the battle
   result code could treat it as a no-reward victory. It now records the result and
