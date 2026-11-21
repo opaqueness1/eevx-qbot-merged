@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.28 — Max Raid discovery eligibility (2026-11-21)
+- The discovery scan still rejected Eternatus as `no-reward-encounter` even though the
+  station list marked it eligible. Discovery now applies the Eternatus species-form rule
+  before rejecting.
+- APK: `Eevx-qbot-merged-v0.1.28.apk`
+- SHA-256: `56161fb25c7e5f771ba569850f5b8c8f9689e34a915bef8624bf70e7e20a6d5a`
+
 ## v0.1.27 — Max Battle station parsing (2026-11-21)
 - 0.437 nests the Max Battle boss under `StationProto.BattleDetails.BattlePokemon`; read both layouts.
 - Normalize Eternatus form IDs (`2580`/`2581`) to species `890`.
