@@ -678,7 +678,7 @@
 
     move-result-object p0
 
-    const-string v0, "sha256:a76167b88487a9ad9638b0253a0533c9094de6ebed1f7863442808a477ec81e7"
+    const-string v0, "sha256:c41ca9144e78032bea1e2f3fb1f4a2c9bab4c6480bcb06fcbb17518497974627"
 
     const-string v2, "sha256:"
 

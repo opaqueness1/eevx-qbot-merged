@@ -1299,7 +1299,7 @@
 
     const-string v1, "digest"
 
-    const-string v2, "sha256:a76167b88487a9ad9638b0253a0533c9094de6ebed1f7863442808a477ec81e7"
+    const-string v2, "sha256:c41ca9144e78032bea1e2f3fb1f4a2c9bab4c6480bcb06fcbb17518497974627"
 
     invoke-virtual {p0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -3845,7 +3845,7 @@
 
     const-string v3, "scenarioCatalogDigest"
 
-    const-string v5, "sha256:a76167b88487a9ad9638b0253a0533c9094de6ebed1f7863442808a477ec81e7"
+    const-string v5, "sha256:c41ca9144e78032bea1e2f3fb1f4a2c9bab4c6480bcb06fcbb17518497974627"
 
     invoke-virtual {v1, v3, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -5000,7 +5000,7 @@
 
     move-result-object v4
 
-    const-string v5, "sha256:a76167b88487a9ad9638b0253a0533c9094de6ebed1f7863442808a477ec81e7"
+    const-string v5, "sha256:c41ca9144e78032bea1e2f3fb1f4a2c9bab4c6480bcb06fcbb17518497974627"
 
     const-string v6, "sha256:"
 

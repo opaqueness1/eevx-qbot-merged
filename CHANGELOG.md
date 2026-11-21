@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.6 — Pokémon GO 0.437.0/0.439.0 support (2026-11-20)
+- App version whitelist accepts `0.437.0` and `0.439.0`, including the Grunts gate.
+- Scenario catalog digest sent to the runtime now matches the bundled agent
+  (`c41ca914…`), fixing `on-demand-init-scenario-mismatch`.
+- Agent maps both versions to the 0.435.2 tables; compatibility reports
+  `supported-fingerprint` instead of blocking on version/unity/il2cpp-size.
+- Runtime manifest release id, agent hashes, resident path and ptrace agent hash
+  refreshed so the artifact validates and extracts.
+- APK: `Eevx-qbot-merged-v0.1.6.apk`
+- SHA-256: `e9abee9bc0c2de13d488ee89a2c14ac0fa9f1ed38e2acc69c93c51c260293cb3`
+- Note: Il2Cpp offsets remain the 0.435.2 set until a fresh dump is available.
+
 ## v0.1 — QBOT merge backport (2026-11-20)
 - PTC `sign-in-required` failures now offer **Sign in again** from the switch
   recovery dialog (`MainActivity.O` gains the account argument; new `o60` path into

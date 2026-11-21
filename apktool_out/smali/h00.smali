@@ -11,7 +11,11 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 9
+    .locals 11
+
+    const-string v9, "0.437.0"
+
+    const-string v10, "0.439.0"
 
     const-string v7, "0.435.1"
 
@@ -31,7 +35,7 @@
 
     const-string v6, "0.435.0"
 
-    filled-new-array/range {v0 .. v8}, [Ljava/lang/String;
+    filled-new-array/range {v0 .. v10}, [Ljava/lang/String;
 
     move-result-object v0
 
@@ -352,6 +356,22 @@
     if-nez p0, :cond_3
 
     const-string p0, "0.435.2"
+
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_3
+
+    const-string p0, "0.437.0"
+
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_3
+
+    const-string p0, "0.439.0"
 
     invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

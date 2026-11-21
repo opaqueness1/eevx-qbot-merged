@@ -798,7 +798,7 @@
 
     const-string v3, "catalogDigest"
 
-    const-string v4, "sha256:a76167b88487a9ad9638b0253a0533c9094de6ebed1f7863442808a477ec81e7"
+    const-string v4, "sha256:c41ca9144e78032bea1e2f3fb1f4a2c9bab4c6480bcb06fcbb17518497974627"
 
     invoke-virtual {v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -5981,7 +5981,7 @@
 
     if-eqz v4, :cond_1f
 
-    const-string v4, "sha256:a76167b88487a9ad9638b0253a0533c9094de6ebed1f7863442808a477ec81e7"
+    const-string v4, "sha256:c41ca9144e78032bea1e2f3fb1f4a2c9bab4c6480bcb06fcbb17518497974627"
 
     const-string v5, "catalogDigest"
 
