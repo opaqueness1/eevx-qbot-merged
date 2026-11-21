@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.16 — Max Orb address-check fix (2026-11-21)
+- The Max Orb RVA guard compared against the wrong module-relative base on 0.437 and
+  rejected correct method bindings. It now runs only for 0.435.2; newer builds use
+  their mapped method names.
+- APK: `Eevx-qbot-merged-v0.1.16.apk`
+- SHA-256: `74142a91518cccd45d4bf6bb9e0ed550e3d916c7adba44992a31f454d09aa077`
+
 ## v0.1.14 — Max Raid compatibility (2026-11-21)
 - `IMapPlace` moved from `holo-game.dll` to `holo-game-interfaces.dll` in 0.437; class
   lookup now falls back across the runtime interface assemblies.
