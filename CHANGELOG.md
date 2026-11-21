@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.35 — Max Battle result without encounter (2026-11-21)
+- The resolve-GUI hook itself threw `max-earned-encounter-missing` before the battle
+  result code could treat it as a no-reward victory. It now records the result and
+  continues.
+- APK: `Eevx-qbot-merged-v0.1.35.apk`
+- SHA-256: `aa4cd2d0d542bcd1de6a58be9c1e9316a846de0c6222b7c94c429304ce4d476d`
+
 ## v0.1.34 — Max Battle without reward catch (2026-11-21)
 - Eternatus sets `SkipRewardEncounter`; a won Max Battle with no post-battle encounter
   no longer fails with `max-earned-encounter-missing`.
