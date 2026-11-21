@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.27 — Max Battle station parsing (2026-11-21)
+- 0.437 nests the Max Battle boss under `StationProto.BattleDetails.BattlePokemon`; read both layouts.
+- Normalize Eternatus form IDs (`2580`/`2581`) to species `890`.
+- Accept Eternatus `SkipRewardEncounter` battles as eligible.
+- Local Max Raid search now considers local station objects directly instead of filtering by
+  the stale area centre, and returns the corrected battle eligibility.
+- APK: `Eevx-qbot-merged-v0.1.27.apk`
+- SHA-256: `0a340e666ede98bf6b655ce1197a6f7088bd4b3d5f91c489039497343fc721fd`
+
 ## v0.1.16 — Max Orb address-check fix (2026-11-21)
 - The Max Orb RVA guard compared against the wrong module-relative base on 0.437 and
   rejected correct method bindings. It now runs only for 0.435.2; newer builds use
