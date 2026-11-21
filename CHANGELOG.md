@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.1.29 — Max Raid minimum players (2026-11-21)
+- Added `minimumPlayersBeforeJoining` to the `max_raid` scenario parameters.
+- Max Raid combines that value with its stored area-config minimum.
+- Underfilled Max lobbies are left after a 15-second grace instead of waiting until
+  15 seconds before battle start, so the character does not enter alone.
+- APK: `Eevx-qbot-merged-v0.1.29.apk`
+- SHA-256: `94c2f1170ae193c9f22bb2e852e4f86a3e2c273eb2ae4fbdc98e174da29f2092`
+
 ## v0.1.28 — Max Raid discovery eligibility (2026-11-21)
 - The discovery scan still rejected Eternatus as `no-reward-encounter` even though the
   station list marked it eligible. Discovery now applies the Eternatus species-form rule

@@ -1,15 +1,15 @@
-# Eevx — QBOT merge fork (v0.1.28)
+# Eevx — QBOT merge fork (v0.1.29)
 
 A fork of the Eevx patch (`com.pgexplorations.controller`, upstream base 1.7.124)
 that backports two behaviours from a colleague's QBOT fork onto our patched
 1.7.124 tree. Our own `v2.1.16` build is unchanged and remains in
 [`eevx-project`](https://github.com/opaqueness1/eevx-project).
 
-- versionName: `0.1.28-qbot-merged+upstream.1.7.124`
-- versionCode: `2001189` (above `v2.1.16`, so it shares the same signing key and
+- versionName: `0.1.29-qbot-merged+upstream.1.7.124`
+- versionCode: `2001190` (above `v2.1.16`, so it shares the same signing key and
   can be installed alongside/over it)
-- APK: `Eevx-qbot-merged-v0.1.28.apk`
-- SHA-256: `56161fb25c7e5f771ba569850f5b8c8f9689e34a915bef8624bf70e7e20a6d5a`
+- APK: `Eevx-qbot-merged-v0.1.29.apk`
+- SHA-256: `94c2f1170ae193c9f22bb2e852e4f86a3e2c273eb2ae4fbdc98e174da29f2092`
 
 ## What the merge changes
 
