@@ -1,3 +1,6 @@
 apktool_out/build/
 build/
 *.idsig
+
+Eevx-qbot-merged-v0.1.*.apk
+Eevx-qbot-merged-v0.1.*.apk.sha256
