@@ -369,6 +369,16 @@
     return-object p1
 .end method
 
+.method public static getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
+    .locals 0
+
+    invoke-static {p0, p1, p2}, Landroidx/core/content/FileProvider;->c(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
 .method public static d(ILandroid/content/Context;Ljava/lang/String;)Lnx;
     .locals 7
 

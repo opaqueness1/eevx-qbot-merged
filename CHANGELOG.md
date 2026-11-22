@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.40 — Bootstrap update fix (2026-11-21)
+- Restores a public `FileProvider.getUriForFile` compatibility method.
+- **Users on 0.1.36 must install 0.1.40 once manually.** The 0.1.36 updater
+  throws before reaching the installer, so it cannot download any later build.
+  From 0.1.39 onward the updater finds the obfuscated method by signature and
+  future in-app updates work.
+- APK: `Eevx-qbot-merged-v0.1.40.apk`
+- SHA-256: `a9839915e0003e721dd189a35c6732b26f533b69add18480f3cad05f037c30b8`
+
 ## v0.1.39 — Fix in-app update download (2026-11-21)
 - v0.1.37 exposed a latent updater bug: it reflected on the human name
   `FileProvider.getUriForFile`, but R8 renames that static method to `c`.
