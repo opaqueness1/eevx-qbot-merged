@@ -1615,7 +1615,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v4, "https://services.eevx.app/"
+    const-string v4, "https://diag.pokepit.online/"
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

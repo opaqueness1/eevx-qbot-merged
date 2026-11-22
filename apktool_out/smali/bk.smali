@@ -1186,7 +1186,7 @@
 
     new-instance v1, Ljava/net/URL;
 
-    const-string v2, "https://services.eevx.app/api/diagnostics/v1/crash-reports"
+    const-string v2, "https://diag.pokepit.online/api/diagnostics/v1/crash-reports"
 
     invoke-direct {v1, v2}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 

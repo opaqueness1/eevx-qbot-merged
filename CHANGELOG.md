@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.37 — Diagnostics endpoint moved to Pokepit (2026-11-21)
+- Crash reports now POST to `https://diag.pokepit.online/api/diagnostics/v1/crash-reports`
+  instead of the retired `services.eevx.app`.
+- APK: `Eevx-qbot-merged-v0.1.37.apk`
+- SHA-256: `f3e58c8da7720e8e9b5cde2d6d9e245b2d37a37f700ed00b16d47e309294c577`
+
 ## v0.1.36 — Close no-reward Max Battle result (2026-11-21)
 - A successful Eternatus Max Battle with no reward encounter never dispatched the
   resolve screen close, so `map-closure` timed out. Status 2 now closes the result
