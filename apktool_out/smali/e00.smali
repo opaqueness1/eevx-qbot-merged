@@ -106,6 +106,14 @@
     :catch_0
     move-exception v2
 
+    const-string v3, "EevxUpdate"
+
+    const-string v4, "download-failed"
+
+    invoke-static {v3, v4, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
+
     goto :goto_0
 
     :cond_0

@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.39 — Fix in-app update download (2026-11-21)
+- v0.1.37 exposed a latent updater bug: it reflected on the human name
+  `FileProvider.getUriForFile`, but R8 renames that static method to `c`.
+- The updater now finds the FileProvider method by its parameter types, so
+  in-app downloads work again on obfuscated builds.
+- Also logs the stack trace if a game-update download fails.
+- APK: `Eevx-qbot-merged-v0.1.39.apk`
+- SHA-256: `08702bece4899162ebc663c48691e532a3b0678953909c4c7b782e1903c4b369`
+
 ## v0.1.37 — Diagnostics endpoint moved to Pokepit (2026-11-21)
 - Crash reports now POST to `https://diag.pokepit.online/api/diagnostics/v1/crash-reports`
   instead of the retired `services.eevx.app`.
