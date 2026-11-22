@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.41 — Authenticated diagnostics (2026-11-21)
+- Diagnostic posts now send `X-Pokepit-Diag`; the ingest rejects other posts and
+  rate-limits per source IP.
+- APK: `Eevx-qbot-merged-v0.1.41.apk`
+- SHA-256: `cf9a81c09fae6b5603a0ac3d5596a64c2b2b0e5974091030ee8b7a9845862bba`
+
 ## v0.1.40 — Bootstrap update fix (2026-11-21)
 - Restores a public `FileProvider.getUriForFile` compatibility method.
 - **Users on 0.1.36 must install 0.1.40 once manually.** The 0.1.36 updater

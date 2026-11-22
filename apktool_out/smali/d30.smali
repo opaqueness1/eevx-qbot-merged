@@ -2379,6 +2379,12 @@
 
     invoke-virtual {p0, v1, p2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
+    const-string v1, "X-Pokepit-Diag"
+
+    const-string v4, "0WZBsCihNofbY4aLL5vN5sryZxdeasC-TW_rWFXqyek"
+
+    invoke-virtual {p0, v1, v4}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+
     invoke-virtual/range {p3 .. p3}, Lak;->getAsBoolean()Z
 
     move-result p2
