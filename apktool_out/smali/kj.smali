@@ -32,7 +32,7 @@
 
 # virtual methods
 .method public final uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
-    .locals 5
+    .locals 6
 
     iget-object v0, p0, Lkj;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -66,6 +66,10 @@
     move-result-object v0
 
     invoke-static {v1, v0}, Lmj;->o0(Ljava/io/File;Lorg/json/JSONObject;)V
+
+    sget-object v5, Lbk;->c:Landroid/content/Context;
+
+    invoke-static {v5, v0}, Lbk;->k(Landroid/content/Context;Lorg/json/JSONObject;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

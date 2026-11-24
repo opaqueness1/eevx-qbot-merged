@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.1.44 — Crash reports actually reach the ingest (2026-11-24)
+- The uncaught-exception handler now queues the captured report and sends it, instead of only
+  writing `controller-crashes/crash-*.json` on disk. Queued reports are retried (5 attempts,
+  1 s apart) and are also drained from the crash directory on next launch.
+- Reports are POSTed straight to `https://diag.pokepit.online/api/diagnostics/v1/crash-reports`
+  over `HttpURLConnection` with explicit connect/read timeouts, `Content-Type`, the ingest token
+  and a short `Eevx/<version>` User-Agent. The app's signed `Diag` path returned 503 from the
+  edge for this client, so the direct POST is used.
+- Owner/device identity for the outbox is now the SHA-256 of `Settings.Secure.ANDROID_ID`
+  (falling back to `unknown-device`), shared by queueing and the sender; no credential is needed.
+- Fixes `File.list()`/`listFiles()` usage in the crash-outbox lister and the crash-directory
+  sweep so both survive the empty first read.
+- APK: `Eevx-qbot-merged-v0.1.44.apk`
+- SHA-256: `505885b67fb7e9ee08c549bcf7808c7fb8836fa5d223d14ff0cb04a0fd8913f3`
+
 ## v0.1.42 — Shop gifting prompt and level-up dismissal (2026-11-24)
 - New `shop-gifting-intro` popup kind. Unknown GUI controllers are classified by
   title/body text (needs both "gift" and "shop") and the single visible

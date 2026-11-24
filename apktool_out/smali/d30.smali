@@ -2321,6 +2321,32 @@
 
     invoke-virtual {p0, v4, v5}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
+    const/16 v4, 0x2710
+
+    invoke-virtual {p0, v4}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+
+    const/16 v4, 0x3a98
+
+    invoke-virtual {p0, v4}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+
+    const-string v4, "User-Agent"
+
+    const-string v5, "Eevx/0.1.44"
+
+    invoke-virtual {p0, v4, v5}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v4, "Accept"
+
+    const-string v5, "application/json"
+
+    invoke-virtual {p0, v4, v5}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v4, "Connection"
+
+    const-string v5, "close"
+
+    invoke-virtual {p0, v4, v5}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+
     const-string v4, "Authorization"
 
     new-instance v5, Ljava/lang/StringBuilder;

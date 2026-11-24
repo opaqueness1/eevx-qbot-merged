@@ -1046,44 +1046,54 @@
 .end method
 
 .method public static e(Landroid/content/Context;)Ljava/lang/String;
-    .locals 2
+    .locals 4
 
-    const-string v0, "access_device_identity_v1"
+    :try_start_0
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
-    const/4 v1, 0x0
+    move-result-object v0
 
-    invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    const-string v1, "android_id"
 
-    move-result-object p0
+    invoke-static {v0, v1}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
-    const-string v0, "credential_id"
+    move-result-object v0
 
-    const-string v1, ""
+    if-nez v0, :_null
 
-    invoke-interface {p0, v0, v1}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    sget-object v1, Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
 
-    move-result-object p0
+    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
-    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
+    move-result-object v0
 
-    move-result v0
+    invoke-static {v0}, Lmj;->s0([B)Ljava/lang/String;
 
-    if-eqz v0, :cond_0
+    move-result-object v0
 
-    return-object v1
+    return-object v0
 
-    :cond_0
-    sget-object v0, Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
+    :_null
+    const-string v0, "unknown-device"
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    sget-object v1, Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
 
-    move-result-object p0
+    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
-    invoke-static {p0}, Lmj;->s0([B)Ljava/lang/String;
+    move-result-object v0
 
-    move-result-object p0
+    invoke-static {v0}, Lmj;->s0([B)Ljava/lang/String;
 
-    return-object p0
+    move-result-object v0
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    const-string v0, "unknown-device"
+
+    return-object v0
 .end method
 
 .method public static f(Landroid/content/Context;)Lzj;
@@ -1151,7 +1161,7 @@
 .end method
 
 .method public static h(Landroid/content/Context;Lorg/json/JSONObject;Ljava/lang/String;Lx3;)I
-    .locals 4
+    .locals 6
 
     invoke-static {p0}, Lbk;->a(Landroid/content/Context;)Z
 
@@ -1329,4 +1339,222 @@
     invoke-static {p1}, Loj;->e(Ljava/lang/Runnable;)V
 
     return-void
+.end method
+
+.method public static n(Landroid/content/Context;Lorg/json/JSONObject;)Lorg/json/JSONObject;
+    .locals 8
+
+    new-instance v7, Lorg/json/JSONObject;
+
+    invoke-direct {v7}, Lorg/json/JSONObject;-><init>()V
+
+    if-eqz p0, :_ret
+
+    if-eqz p1, :_ret
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v5, "android_id"
+
+    invoke-static {v0, v5}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v4
+
+    if-nez v4, :_aid
+
+    const-string v4, "unknown-device"
+
+    :_aid
+    sget-object v0, Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
+
+    invoke-virtual {v4, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+
+    move-result-object v0
+
+    invoke-static {v0}, Lmj;->s0([B)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v1
+
+    const-string v3, "schemaVersion"
+
+    const/4 v5, 0x1
+
+    invoke-virtual {v7, v3, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+
+    const-string v3, "eventId"
+
+    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/util/UUID;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v7, v3, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v3, "observedAt"
+
+    invoke-virtual {v7, v3, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
+
+    const-string v3, "kind"
+
+    const-string v5, "controller-crash"
+
+    invoke-virtual {v7, v3, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v3, "phase"
+
+    const-string v5, "uncaught"
+
+    invoke-virtual {v7, v3, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v3, "deviceId"
+
+    invoke-virtual {v7, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v3, "appVersion"
+
+    const-string v5, "versionName"
+
+    invoke-virtual {p1, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v7, v3, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v3, "facts"
+
+    invoke-virtual {v7, v3, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    invoke-static {p0}, Lbk;->f(Landroid/content/Context;)Lzj;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v1, v2, v4, v7}, Lzj;->a(JLjava/lang/String;Lorg/json/JSONObject;)V
+
+    :_ret
+    return-object v7
+.end method
+
+.method public static k(Landroid/content/Context;Lorg/json/JSONObject;)Z
+    .locals 6
+
+    const/4 v3, 0x0
+
+    if-eqz p0, :_ret
+
+    invoke-static {p0, p1}, Lbk;->n(Landroid/content/Context;Lorg/json/JSONObject;)Lorg/json/JSONObject;
+
+    move-result-object v0
+
+    if-eqz v0, :_ret
+
+    const-string v1, "deviceId"
+
+    invoke-virtual {v0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v2, Ljava/lang/Thread;
+
+    new-instance v3, Ln60a;
+
+    invoke-direct {v3, p0, v0, v1}, Ln60a;-><init>(Landroid/content/Context;Lorg/json/JSONObject;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    const-string v1, "crash-upload"
+
+    invoke-direct {v2, v3, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
+
+    invoke-virtual {v2}, Ljava/lang/Thread;->start()V
+
+    const-wide/16 v4, 0x1f40
+
+    invoke-virtual {v2, v4, v5}, Ljava/lang/Thread;->join(J)V
+
+    const/4 v3, 0x1
+
+    :_ret
+    return v3
+.end method
+
+.method public static m(Landroid/content/Context;)V
+    .locals 8
+
+    if-eqz p0, :_ret
+
+    :try_start_0
+    new-instance v0, Ljava/io/File;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+
+    move-result-object v1
+
+    const-string v2, "pgexplorations/controller-crashes"
+
+    invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
+
+    invoke-virtual {v0}, Ljava/io/File;->list()[Ljava/lang/String;
+
+    move-result-object v1
+
+    if-nez v1, :_second
+
+    goto :_have
+
+    :_second
+    invoke-virtual {v0}, Ljava/io/File;->list()[Ljava/lang/String;
+
+    move-result-object v1
+
+    if-nez v1, :_ret
+
+    :_have
+    array-length v2, v1
+
+    const/4 v3, 0x0
+
+    :loop
+    if-ge v3, v2, :_ret
+
+    new-instance v4, Ljava/io/File;
+
+    aget-object v5, v1, v3
+
+    invoke-direct {v4, v0, v5}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    invoke-static {v4}, Lzj;->e(Ljava/io/File;)Lorg/json/JSONObject;
+
+    move-result-object v5
+
+    if-eqz v5, :next
+
+    invoke-virtual {v4}, Ljava/io/File;->delete()Z
+
+    invoke-static {p0, v5}, Lbk;->n(Landroid/content/Context;Lorg/json/JSONObject;)Lorg/json/JSONObject;
+
+    :next
+    add-int/lit8 v3, v3, 0x1
+
+    goto :loop
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    :_ret
+    return-void
+
+    :catch_0
+    move-exception v0
+
+    goto :_ret
 .end method

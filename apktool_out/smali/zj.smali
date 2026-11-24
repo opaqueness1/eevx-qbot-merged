@@ -273,29 +273,47 @@
 .end method
 
 .method public c()[Ljava/io/File;
-    .locals 3
+    .locals 8
 
-    new-instance v0, Ldh;
+    iget-object v2, p0, Lzj;->b:Ljava/io/File;
 
-    const/4 v1, 0x3
+    invoke-virtual {v2}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
-    invoke-direct {v0, v1}, Ldh;-><init>(I)V
+    move-result-object v3
 
-    iget-object p0, p0, Lzj;->b:Ljava/io/File;
+    if-eqz v3, :fallback
 
-    invoke-virtual {p0, v0}, Ljava/io/File;->listFiles(Ljava/io/FilenameFilter;)[Ljava/io/File;
+    goto :sort
 
-    move-result-object p0
+    :fallback
+    invoke-virtual {v2}, Ljava/io/File;->list()[Ljava/lang/String;
 
-    if-nez p0, :cond_0
+    move-result-object v4
 
-    const/4 p0, 0x0
+    if-eqz v4, :empty
 
-    new-array p0, p0, [Ljava/io/File;
+    array-length v5, v4
 
-    return-object p0
+    new-array v3, v5, [Ljava/io/File;
 
-    :cond_0
+    const/4 v6, 0x0
+
+    :floop
+    if-ge v6, v5, :sort
+
+    new-instance v1, Ljava/io/File;
+
+    aget-object v7, v4, v6
+
+    invoke-direct {v1, v2, v7}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    aput-object v1, v3, v6
+
+    add-int/lit8 v6, v6, 0x1
+
+    goto :floop
+
+    :sort
     new-instance v0, Lf2;
 
     const/4 v1, 0x1
@@ -314,9 +332,16 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Ljava/util/Arrays;->sort([Ljava/lang/Object;Ljava/util/Comparator;)V
+    invoke-static {v3, v0}, Ljava/util/Arrays;->sort([Ljava/lang/Object;Ljava/util/Comparator;)V
 
-    return-object p0
+    return-object v3
+
+    :empty
+    const/4 v0, 0x0
+
+    new-array v3, v0, [Ljava/io/File;
+
+    return-object v3
 .end method
 
 .method public d(J)V

@@ -147,6 +147,8 @@
 
     if-eqz v0, :cond_1
 
+    invoke-static {p0}, Lbk;->m(Landroid/content/Context;)V
+
     sget v0, Lcom/pgexplorations/controller/CrashReportJob;->b:I
 
     new-instance v0, Lj0;
