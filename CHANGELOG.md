@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.1.42 — Shop gifting prompt and level-up dismissal (2026-11-24)
+- New `shop-gifting-intro` popup kind. Unknown GUI controllers are classified by
+  title/body text (needs both "gift" and "shop") and the single visible
+  OK/Yes/Continue button is clicked, so the "Introducing More Gifting Options in
+  the Shop" prompt no longer stalls a run.
+- Level-up rewards: the close phase now clicks the visible exit/close control
+  (closeButton/exitButton/dismissButton/xButton, else a unique OK/Close/Done
+  button) instead of only re-poking `OnScreenClicked`; `Claim Rewards` also
+  falls back to a `claim` label match when `claim_items` is absent.
+- Manifest: agent/agentGadget sizes and hashes refreshed, `ptraceFree` gadget
+  entry refreshed, releaseId bumped to `...game437r32` so a stale staged
+  artifact is re-extracted instead of reused. `agent.download.path` must be
+  `runtime/residents/<agent.sha256>.gz` - `g00.a()` enforces that equality, and
+  a hash edit without renaming the path makes the runtime detach instantly with
+  `phase=manifest-or-extract valid=false`.
+- APK: `Eevx-qbot-merged-v0.1.42.apk`
+- SHA-256: `0486e5e83394902976ae6c2effc3bc139a223d3d9a81ccf095e66138e8da2181`
+
 ## v0.1.41 — Authenticated diagnostics (2026-11-21)
 - Diagnostic posts now send `X-Pokepit-Diag`; the ingest rejects other posts and
   rate-limits per source IP.
