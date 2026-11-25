@@ -173,3 +173,11 @@
 - APK: `Eevx-qbot-merged-v0.1.apk`
 - SHA-256: `d54cc2e070b223fd2c022c9da0c6a81b5a2002dfd268ab6a0ad2bef156583ddf`
 - Based on `eevx-project` v2.1.16 (`894296839378e2a7d7118226a43ff7b5d7f28a4f526cc0db7bd4d9d1114c475d`)
+
+## Workflow — dev / prod split (2026-11-24)
+- All in-progress work builds as `Eevx-qbot-merged-vX.Y.Z-dev.apk`
+  (`versionName X.Y.Z-dev+qbot-merged+upstream.<ver>`), same `versionCode` as
+  the pending prod release.
+- Dev builds are local test artifacts only: no GitHub release, no update feed.
+- On approval of a version, rebuild prod without the `-dev` suffix, then
+  publish release + `latest.json`/`eevx.apk` with SHA-256.
