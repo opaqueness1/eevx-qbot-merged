@@ -13,7 +13,7 @@
 - Verified end-to-end on a Pixel 4 XL (0.437.0) and a VMOS V03 cloud phone (0.439.0): arrival,
   lobby, battle, victory and a successful catch on both, then scenario completion.
 - Dev APK: `Eevx-qbot-merged-v0.1.45-dev.apk`
-- Dev SHA-256: `859c4a25178cc1c601369bc331eefa62edce4bf0e6775c344ffc5b1d4418a604`
+- Dev SHA-256: `a1b2afba6ad031e6bcbf3c2cbee93413c647aa0ae74c95b8f94aaacc89f5c52c`
 - APK (prod): `Eevx-qbot-merged-v0.1.45.apk`
 - SHA-256: `afdc0045f139567b37b10dc177af7fef7f34b625b56b32b36008c80862bbea01`
 - Release: `v0.1.45`
