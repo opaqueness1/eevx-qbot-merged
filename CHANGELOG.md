@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.1.45 — Raid scenario works on current game builds (2026-11-26)
+- Resident runtime no longer requires a row generation match before accepting a raid arrival;
+  it falls back to the game's own candidate list when the cell row set has not populated yet.
+- Native structure checks that were pinned to an older game build are relaxed so 0.437.0/0.439.0
+  no longer abort the scenario: the `ReturnToMapExplore` thunk whitelist is skipped, an unverified
+  exit profile is read from live bytes instead of a fixed table, an ambiguous `GymRootController`
+  context is accepted, and pending popup dispatches no longer block map-ready, pre-catch and catch
+  readiness.
+- The staged runtime directory is keyed by the manifest release id, which is bumped (`-r2`), so
+  upgrades replace the staged agent instead of failing with `scenario-artifact-failed`.
+- Verified end-to-end on a Pixel 4 XL (0.437.0) and a VMOS V03 cloud phone (0.439.0): arrival,
+  lobby, battle, victory and a successful catch on both, then scenario completion.
+- Dev APK: `Eevx-qbot-merged-v0.1.45-dev.apk`
+- Dev SHA-256: `859c4a25178cc1c601369bc331eefa62edce4bf0e6775c344ffc5b1d4418a604`
+- APK (prod): `Eevx-qbot-merged-v0.1.45.apk`
+- SHA-256: `afdc0045f139567b37b10dc177af7fef7f34b625b56b32b36008c80862bbea01`
+- Release: `v0.1.45`
+
 ## v0.1.44 — Crash reports actually reach the ingest (2026-11-24)
 - The uncaught-exception handler now queues the captured report and sends it, instead of only
   writing `controller-crashes/crash-*.json` on disk. Queued reports are retried (5 attempts,
