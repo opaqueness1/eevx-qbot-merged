@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.1.47 — Auto-dismiss the weather warning again on 0.437/0.439 (2026-11-28)
+- The resident's weather-warning source hook no longer binds on unreviewed game builds: the
+  global `dX` review list stops at 0.435.2, so the agent used the stale literal method name
+  `bhfq`, which does not exist on 0.437/0.439. Every launch logged
+  `startup source hook unavailable key=weather-warning reason=signature-matches=0` and the
+  weather dialog was left on screen with **I am Safe** unclicked.
+- Added `0.437.0`/`0.439.0` to `dX` and pointed the weather hook at the 0.439.0 method directly
+  (`bjih(GameplayWeatherProto.WeatherCondition, Boolean) -> Void`, verified against the shipped
+  metadata). The hook now arms (`source hooks armed=9/10`, includes `weather-warning`).
+- Manifest release id bumped `-r3`/`-r4` so the staged runtime is replaced on update instead of
+  failing with `scenario-artifact-failed`; the resident download path now follows the agent hash.
+- The `quit-prompt` hook (`MapRootState.vxi`) still does not bind on 0.439.0; unrelated to the
+  weather prompt and not fixed here.
+- Dev APK: `Eevx-qbot-merged-v0.1.47-dev.apk`
+- Dev SHA-256: `5748fafc4b9fe9ee0bd959bbb8d78f4a8fa9305de7c73e0481fa1910f589effb`
+
 ## v0.1.45 — Raid scenario works on current game builds (2026-11-26)
 - Resident runtime no longer requires a row generation match before accepting a raid arrival;
   it falls back to the game's own candidate list when the cell row set has not populated yet.
