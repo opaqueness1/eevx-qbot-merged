@@ -10,6 +10,10 @@
 - Supersedes v0.1.47-dev; release id bumped to `-r5` so the staged runtime is replaced.
 - Dev APK: `Eevx-qbot-merged-v0.1.48-dev.apk`
 - Dev SHA-256: `91ec6f06280803a1da7ee74b79fa8599b708699353e330a143b2f30591558101`
+- Approved for prod 2026-11-28.
+- APK (prod): `Eevx-qbot-merged-v0.1.48.apk`
+- SHA-256: `9c5924378b5b40c37985cfd535d5b52f1857da42bee60f2ac64a2703b60411ba`
+- Release: `v0.1.48`
 
 ## v0.1.47 — Auto-dismiss the weather warning again on 0.437/0.439 (2026-11-28)
 - The resident's weather-warning source hook no longer binds on unreviewed game builds: the

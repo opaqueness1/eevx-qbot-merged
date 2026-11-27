@@ -13,7 +13,7 @@ packageInfo:
   renameManifestPackage: null
 versionInfo:
   versionCode: 2001480
-  versionName: 0.1.48-dev+qbot-merged+upstream.1.7.124
+  versionName: 0.1.48+qbot-merged+upstream.1.7.124
 sharedLibrary: false
 sparseResources: false
 compactEntries: false
