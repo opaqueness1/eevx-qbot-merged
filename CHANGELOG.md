@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.1.48 — Quit prompt suppression binds on 0.437/0.439 (2026-11-28)
+- The quit-prompt hook still targeted the literal `MapRootState.vxi`, which does not exist on
+  0.439.0; the version map entry (`vxi` -> `ytp`) is only consulted for reviewed builds, so the
+  hook logged `signature-matches=0` and the quit confirmation could appear.
+- Pointed the hook at the 0.439.0 method directly (`ytp`, 0-argument `System.Void`,
+  non-static), verified against the live class. Fixed together with the weather hook:
+  `startup source hooks armed=10/10 quit-prompt,…,weather-warning,…`.
+- Supersedes v0.1.47-dev; release id bumped to `-r5` so the staged runtime is replaced.
+- Dev APK: `Eevx-qbot-merged-v0.1.48-dev.apk`
+- Dev SHA-256: `91ec6f06280803a1da7ee74b79fa8599b708699353e330a143b2f30591558101`
+
 ## v0.1.47 — Auto-dismiss the weather warning again on 0.437/0.439 (2026-11-28)
 - The resident's weather-warning source hook no longer binds on unreviewed game builds: the
   global `dX` review list stops at 0.435.2, so the agent used the stale literal method name

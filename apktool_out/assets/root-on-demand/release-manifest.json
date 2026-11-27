@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "releaseId": "frida-17.16.4-agent-3.4.427-cumulative-stock-431c444d9f992a5c-game437r32-r4",
+  "releaseId": "frida-17.16.4-agent-3.4.427-cumulative-stock-431c444d9f992a5c-game437r32-r5",
   "backend": "root_on_demand",
   "supportedScenarios": [
     "stamp_rally",
@@ -38,10 +38,10 @@
   "agent": {
     "asset": "root-on-demand/agent.js",
     "version": "3.4.427-cumulative",
-    "sha256": "5d348f887c88cddd465bba76a40434152965ef6cdc12373e13ca0afad7eb10e3",
+    "sha256": "354ee05bd041abc6b0a927941c1cc87e06156a7ccf0565b4583c5cbccdb25059",
     "size": 3469685,
     "download": {
-      "path": "runtime/residents/5d348f887c88cddd465bba76a40434152965ef6cdc12373e13ca0afad7eb10e3.gz",
+      "path": "runtime/residents/354ee05bd041abc6b0a927941c1cc87e06156a7ccf0565b4583c5cbccdb25059.gz",
       "encoding": "gzip",
       "sha256": "3bfc9fe2419de5e03a08b894a178382663d20aea5f298b203b6c9e7b28470610",
       "size": 933252
